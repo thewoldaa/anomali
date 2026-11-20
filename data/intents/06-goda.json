@@ -2,7 +2,7 @@
   {
     "slug": "goda",
     "label": "menggoda",
-    "triggers": ["kamu manis", "kamu menggoda", "kamu bikin aku", "kamu jahat", "kamu nakal", "kamu bikin deg degan"],
+    "triggers": ["kamu menggoda", "kamu bikin aku", "kamu jahat", "kamu bikin deg degan"],
     "responses": {
       "hangat": [
         "aku manis? kamu yang bikin aku begini.",

@@ -1,0 +1,24 @@
+{"in":"kamu lagi apa","expect":"lagi-apa"}
+{"in":"lagi ngapain","expect":"lagi-apa"}
+{"in":"kamu lagi ngapain","expect":"lagi-apa"}
+{"in":"aku mau cerita","expect":"cerita-hari"}
+{"in":"aku mau curhat","expect":"cerita-hari"}
+{"in":"aku sayang banget sama kamu","expect":"sayang"}
+{"in":"aku minta pelukan","expect":"peluk"}
+{"in":"kamu kok gak balas","expect":"chat-sepi"}
+{"in":"pagi kak","expect":"sapa-pagi"}
+{"in":"assalamualaikum kak","expect":"sapa-umum"}
+{"in":"kamu sibuk gak","expect":"sibuk"}
+{"in":"aku rindu kamu","expect":"rindu"}
+{"in":"kamu manis deh","expect":"pujian-user"}
+{"in":"aku pengen ketemu kamu","expect":"rindu"}
+{"in":"kita pacaran yuk","expect":"jadian"}
+{"in":"aku kangen berat","expect":"rindu"}
+{"in":"kamu dingin banget","expect":"cuek"}
+{"in":"jangan cuek dong","expect":"cuek"}
+{"in":"aku lagi sedih","expect":"sedih"}
+{"in":"aku lagi capek","expect":"capek"}
+{"in":"kamu jail ya","expect":"nakal"}
+{"in":"aku mau belajar","expect":"kerja-kuliah"}
+{"in":"cara install node js","expect":"fallback-nggakpaham"}
+{"in":"siapa presiden indonesia","expect":"fallback-nggakpaham"}

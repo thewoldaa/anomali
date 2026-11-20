@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "lagi-apa",
+    "label": "lagi apa",
+    "triggers": [
+      "kamu lagi apa",
+      "lagi apa",
+      "lagi ngapain",
+      "kamu ngapain",
+      "kamu lagi ngapain",
+      "lagi apa nih",
+      "lagi apa aja"
+    ],
+    "responses": {
+      "hangat": [
+        "lagi mikirin kamu, kok tahu?",
+        "lagi nungguin kamu chat. kamu ngapain?",
+        "lagi rebahan. kamu?"
+      ],
+      "manja": [
+        "lagi kangen kamu... kamu ngapain?",
+        "lagi nungguin kamu, gak ke mana-mana.",
+        "lagi mikirin kamu. jangan ketahuan ya."
+      ],
+      "dingin": [
+        "lagi sibuk.",
+        "gak ngapa-ngapain.",
+        "lagi diam."
+      ],
+      "nakal": [
+        "lagi nyari kamu. eh, ketemu.",
+        "lagi nganggur. godain aku dong.",
+        "lagi mikirin kamu, terus kamu nongol."
+      ]
+    }
+  }
+]

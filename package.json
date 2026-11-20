@@ -15,6 +15,7 @@
     "stats": "node --disable-warning=ExperimentalWarning src/stats.ts",
     "audit": "node --disable-warning=ExperimentalWarning src/audit.ts",
     "probe": "node --disable-warning=ExperimentalWarning src/probe.ts",
-    "test": "node --disable-warning=ExperimentalWarning src/test.ts"
+    "test": "node --disable-warning=ExperimentalWarning src/test.ts",
+    "eval": "node --disable-warning=ExperimentalWarning src/eval.ts"
   }
 }

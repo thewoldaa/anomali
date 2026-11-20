@@ -1,0 +1,88 @@
+{"in":"hei kamu","expect":"sapa-umum"}
+{"in":"selamat sore","expect":"sapa-sore"}
+{"in":"udah lama ya kita gak ngobrol","expect":"sapa-lama"}
+{"in":"kenalin nama aku rina","expect":"perkenalan-nama"}
+{"in":"nama gue rina","expect":"perkenalan-nama"}
+{"in":"kamu ini siapa sih","expect":"tanya-identitas"}
+{"in":"kabarmu gimana dong","expect":"kabar"}
+{"in":"thanks ya","expect":"terima-kasih"}
+{"in":"aku cabut dulu ya","expect":"pamit"}
+{"in":"aku kangen banget sama kamu","expect":"rindu"}
+{"in":"rindu kamu nih","expect":"rindu"}
+{"in":"aku cinta kamu banget","expect":"sayang"}
+{"in":"kamu beneran sayang gak sih","expect":"sayang-balik"}
+{"in":"kamu manis banget sih","expect":"pujian-user"}
+{"in":"pelukan dong","expect":"peluk"}
+{"in":"aku pengen dicium","expect":"cium"}
+{"in":"gandengan sama aku yuk","expect":"gandengan"}
+{"in":"kamu udah makan?","expect":"perhatian"}
+{"in":"jangan lupa makan ya","expect":"perhatian"}
+{"in":"tidur nyenyak ya","expect":"mimpi-indah"}
+{"in":"aku ngantuk","expect":"mau-tidur"}
+{"in":"baru bangun nih","expect":"baru-bangun"}
+{"in":"aku naksir kamu dari dulu","expect":"jujur-suka"}
+{"in":"aku lagi kesel banget","expect":"marah"}
+{"in":"jangan ganggu aku","expect":"kesel-diam"}
+{"in":"aku cemburu sama dia","expect":"cemburu"}
+{"in":"kamu ada orang lain ya","expect":"cemburu"}
+{"in":"aku sedih banget hari ini","expect":"sedih"}
+{"in":"aku ngerasa sendirian","expect":"kesepian"}
+{"in":"aku capek banget deh","expect":"capek"}
+{"in":"kepalaku pusing banget","expect":"stres"}
+{"in":"maaf ya aku salah","expect":"minta-maaf"}
+{"in":"udah gak apa-apa kok","expect":"maaf-diterima"}
+{"in":"temani aku dong","expect":"temenin"}
+{"in":"aku butuh semangat","expect":"semangat"}
+{"in":"aku bangga banget sama kamu","expect":"bangga"}
+{"in":"aku kecewa sama kamu","expect":"kecewa"}
+{"in":"gimana hari kamu","expect":"tanya-hari"}
+{"in":"hari ini aku kerja lembur","expect":"cerita-hari"}
+{"in":"hobi kamu apa aja","expect":"hobi"}
+{"in":"lagu yang lagi kamu dengerin apa","expect":"musik"}
+{"in":"film favorit kamu apa","expect":"film"}
+{"in":"kamu suka makanan apa","expect":"makanan"}
+{"in":"ngopi bareng yuk","expect":"kopi"}
+{"in":"aku insomnia nih","expect":"begadang"}
+{"in":"aku habis olahraga","expect":"olahraga"}
+{"in":"kantor gimana hari ini","expect":"kerja-kuliah"}
+{"in":"akhir pekan mau ngapain","expect":"weekend"}
+{"in":"main game yuk","expect":"game"}
+{"in":"aku mau healing","expect":"jalan-healing"}
+{"in":"di luar hujan ya","expect":"hujan"}
+{"in":"mau gak jadi pacar aku","expect":"jadian"}
+{"in":"hubungan kita ini apa sih","expect":"status"}
+{"in":"kamu serius sama aku","expect":"serius"}
+{"in":"kamu bayangin masa depan kita gak","expect":"masa-depan"}
+{"in":"kapan kita ketemu","expect":"ketemu"}
+{"in":"mau kencan gak","expect":"kencan"}
+{"in":"aku punya hadiah buat kamu","expect":"hadiah"}
+{"in":"happy birthday ya","expect":"ultah"}
+{"in":"kita jauh ya","expect":"ldr"}
+{"in":"kamu percaya sama aku gak","expect":"kepercayaan"}
+{"in":"aku butuh waktu sendiri","expect":"batas"}
+{"in":"kamu jahat banget","expect":"goda"}
+{"in":"gombalin aku dong","expect":"gombal"}
+{"in":"gombal kamu garing","expect":"gombal-balik"}
+{"in":"kamu jail banget sih","expect":"nakal"}
+{"in":"aku baper deh","expect":"baper"}
+{"in":"aku salting banget","expect":"salting"}
+{"in":"pengen dipeluk lama","expect":"kangen-fisik"}
+{"in":"ngobrol dong sampai malam","expect":"ngobrol-malem"}
+{"in":"telepon aku ya","expect":"telepon"}
+{"in":"video call yuk","expect":"vc"}
+{"in":"sorry telat balas","expect":"balas-lambat"}
+{"in":"aku sibuk nanti balas","expect":"sibuk"}
+{"in":"kenapa diem aja","expect":"chat-sepi"}
+{"in":"perhatian dikit dong","expect":"minta-perhatian"}
+{"in":"kamu bisa ngapain aja","expect":"tanya-kemampuan"}
+{"in":"kamu robot ya","expect":"tes-manusia"}
+{"in":"tebak aku lagi apa","expect":"minta-tebak"}
+{"in":"data aku aman gak","expect":"privasi"}
+{"in":"hapus semua ingatan","expect":"lupakan"}
+{"in":"aku lagi gabut nih","expect":"bosan"}
+{"in":"kenapa kamu cuek","expect":"cuek"}
+{"in":"jangan manja banget dong","expect":"terlalu-manja"}
+{"in":"bagaimana cara membuat website","expect":"fallback-nggakpaham"}
+{"in":"berapa harga tiket pesawat ke bali","expect":"fallback-nggakpaham"}
+{"in":"resep rendang enak","expect":"fallback-nggakpaham"}
+{"in":"jelaskan teori relativitas","expect":"fallback-nggakpaham"}

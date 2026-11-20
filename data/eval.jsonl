@@ -1,0 +1,138 @@
+{"in":"halo","expect":"sapa-umum"}
+{"in":"hai","expect":"sapa-umum"}
+{"in":"assalamualaikum","expect":"sapa-umum"}
+{"in":"pagi","expect":"sapa-pagi"}
+{"in":"selamat pagi","expect":"sapa-pagi"}
+{"in":"met pagi","expect":"sapa-pagi"}
+{"in":"selamat malam","expect":"sapa-malam"}
+{"in":"malem","expect":"sapa-malam"}
+{"in":"lama gak chat","expect":"sapa-lama"}
+{"in":"kemana aja kamu","expect":"sapa-lama"}
+{"in":"kangen aku gak","expect":"sapa-lama"}
+{"in":"kamu siapa","expect":"tanya-identitas"}
+{"in":"kamu bot ya","expect":"tanya-identitas"}
+{"in":"kamu ai ya","expect":"tanya-identitas"}
+{"in":"namaku budi","expect":"perkenalan-nama"}
+{"in":"namakku budi","expect":"perkenalan-nama"}
+{"in":"panggil aku budi","expect":"perkenalan-nama"}
+{"in":"namaku siapa","expect":"tanya-nama-user"}
+{"in":"ingat gak namaku","expect":"tanya-nama-user"}
+{"in":"apa kabar","expect":"kabar"}
+{"in":"gimana kabar kamu","expect":"kabar"}
+{"in":"makasih ya","expect":"terima-kasih"}
+{"in":"terima kasih","expect":"terima-kasih"}
+{"in":"aku pergi dulu","expect":"pamit"}
+{"in":"dadah","expect":"pamit"}
+{"in":"aku kangen kamu","expect":"rindu"}
+{"in":"kangen banget","expect":"rindu"}
+{"in":"rindu berat","expect":"rindu"}
+{"in":"aku sayang kamu","expect":"sayang"}
+{"in":"love you","expect":"sayang"}
+{"in":"kamu sayang aku gak","expect":"sayang-balik"}
+{"in":"kamu cantik","expect":"pujian-user"}
+{"in":"kamu ganteng","expect":"pujian-user"}
+{"in":"kamu juga manis","expect":"pujian-balik"}
+{"in":"beb","expect":"panggilan-sayang"}
+{"in":"peluk dong","expect":"peluk"}
+{"in":"aku mau peluk kamu","expect":"peluk"}
+{"in":"cium dong","expect":"cium"}
+{"in":"gandengan yuk","expect":"gandengan"}
+{"in":"pegang tangan","expect":"gandengan"}
+{"in":"udah makan belum","expect":"perhatian"}
+{"in":"jangan lupa istirahat","expect":"perhatian"}
+{"in":"mimpi indah ya","expect":"mimpi-indah"}
+{"in":"selamat tidur","expect":"mimpi-indah"}
+{"in":"aku mau tidur","expect":"mau-tidur"}
+{"in":"ngantuk banget","expect":"mau-tidur"}
+{"in":"baru bangun","expect":"baru-bangun"}
+{"in":"aku baru bangun","expect":"baru-bangun"}
+{"in":"aku suka kamu","expect":"jujur-suka"}
+{"in":"aku naksir kamu","expect":"jujur-suka"}
+{"in":"aku marah","expect":"marah"}
+{"in":"aku kesel","expect":"marah"}
+{"in":"jangan chat aku dulu","expect":"kesel-diam"}
+{"in":"aku males ngomong","expect":"kesel-diam"}
+{"in":"aku cemburu","expect":"cemburu"}
+{"in":"kamu sama siapa","expect":"cemburu"}
+{"in":"kamu bohong ya","expect":"curiga"}
+{"in":"aku sedih","expect":"sedih"}
+{"in":"aku mau nangis","expect":"sedih"}
+{"in":"aku kesepian","expect":"kesepian"}
+{"in":"aku sendirian","expect":"kesepian"}
+{"in":"aku capek","expect":"capek"}
+{"in":"aku lelah","expect":"capek"}
+{"in":"aku stres","expect":"stres"}
+{"in":"banyak kerjaan","expect":"stres"}
+{"in":"maafin aku","expect":"minta-maaf"}
+{"in":"aku minta maaf","expect":"minta-maaf"}
+{"in":"udah aku maafin","expect":"maaf-diterima"}
+{"in":"gak apa-apa","expect":"maaf-diterima"}
+{"in":"temenin aku","expect":"temenin"}
+{"in":"jangan tinggalin aku","expect":"temenin"}
+{"in":"semangatin aku","expect":"semangat"}
+{"in":"aku mau nyerah","expect":"semangat"}
+{"in":"aku bangga sama kamu","expect":"bangga"}
+{"in":"aku kecewa","expect":"kecewa"}
+{"in":"hari kamu gimana","expect":"tanya-hari"}
+{"in":"tadi ngapain","expect":"tanya-hari"}
+{"in":"tadi aku pergi ke mall","expect":"cerita-hari"}
+{"in":"hobi kamu apa","expect":"hobi"}
+{"in":"lagu favorit kamu apa","expect":"musik"}
+{"in":"nonton apa tadi","expect":"film"}
+{"in":"makan apa tadi","expect":"makanan"}
+{"in":"aku lapar","expect":"makanan"}
+{"in":"ngopi yuk","expect":"kopi"}
+{"in":"aku mau ngopi","expect":"kopi"}
+{"in":"aku belum tidur","expect":"begadang"}
+{"in":"begadang terus","expect":"begadang"}
+{"in":"aku olahraga tadi","expect":"olahraga"}
+{"in":"kerjaan gimana","expect":"kerja-kuliah"}
+{"in":"kuliah gimana","expect":"kerja-kuliah"}
+{"in":"weekend ngapain","expect":"weekend"}
+{"in":"main game apa","expect":"game"}
+{"in":"jalan jalan yuk","expect":"jalan-healing"}
+{"in":"hujan deras","expect":"hujan"}
+{"in":"kita jadian yuk","expect":"jadian"}
+{"in":"kita ini apa","expect":"status"}
+{"in":"kamu serius gak","expect":"serius"}
+{"in":"masa depan kita","expect":"masa-depan"}
+{"in":"kita ketemu yuk","expect":"ketemu"}
+{"in":"kencan yuk","expect":"kencan"}
+{"in":"aku beliin hadiah","expect":"hadiah"}
+{"in":"selamat ulang tahun","expect":"ultah"}
+{"in":"kita ldr ya","expect":"ldr"}
+{"in":"kamu percaya aku gak","expect":"kepercayaan"}
+{"in":"kamu bakal pergi gak","expect":"komitmen"}
+{"in":"aku butuh ruang","expect":"batas"}
+{"in":"kamu menggoda","expect":"goda"}
+{"in":"gombal dong","expect":"gombal"}
+{"in":"gombalannya jelek","expect":"gombal-balik"}
+{"in":"kamu nakal","expect":"nakal"}
+{"in":"kamu jail","expect":"nakal"}
+{"in":"aku baper","expect":"baper"}
+{"in":"aku salting","expect":"salting"}
+{"in":"pengen deket kamu","expect":"kangen-fisik"}
+{"in":"ngobrol sampai malam","expect":"ngobrol-malem"}
+{"in":"telpon aku dong","expect":"telepon"}
+{"in":"vc yuk","expect":"vc"}
+{"in":"maaf baru balas","expect":"balas-lambat"}
+{"in":"aku lagi sibuk","expect":"sibuk"}
+{"in":"kok diem aja","expect":"chat-sepi"}
+{"in":"perhatiin aku dong","expect":"minta-perhatian"}
+{"in":"kamu bisa apa","expect":"tanya-kemampuan"}
+{"in":"kamu manusia","expect":"tes-manusia"}
+{"in":"coba tebak aku lagi apa","expect":"minta-tebak"}
+{"in":"kamu simpan chat aku","expect":"privasi"}
+{"in":"lupakan aku","expect":"lupakan"}
+{"in":"aku gabut","expect":"bosan"}
+{"in":"aku bosen","expect":"bosan"}
+{"in":"kmu kok cuek","expect":"cuek"}
+{"in":"kamu terlalu manja","expect":"terlalu-manja"}
+{"in":"hai sayang apa kaabr","expect":"kabar"}
+{"in":"ak kangen kmu bgt","expect":"rindu"}
+{"in":"kmu udh mkn blm","expect":"perhatian"}
+{"in":"aku pgen tdr","expect":"mau-tidur"}
+{"in":"kmrn aku cape","expect":"capek"}
+{"in":"harga bitcoin berapa sekarang","expect":"fallback-nggakpaham"}
+{"in":"besok aku mau beli mobil baru","expect":"fallback-nggakpaham"}
+{"in":"cara bikin nasi goreng","expect":"fallback-nggakpaham"}

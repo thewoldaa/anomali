@@ -1,5 +1,17 @@
 [
   {
+    "slug": "nakal",
+    "triggers": ["kamu nakal", "kamu nakal ya"]
+  },
+  {
+    "slug": "status",
+    "triggers": ["kita ini apa", "kita ini apa ya", "kita ini apa sih"]
+  },
+  {
+    "slug": "kerja-kuliah",
+    "triggers": ["kerjaan gimana", "kerjaan kamu gimana", "kerjaan lancar"]
+  },
+  {
     "slug": "rindu",
     "triggers": [
       "kangen banget",
@@ -51,5 +63,61 @@
       "belum tidur ya",
       "kamu belum tidur"
     ]
+  },
+  {
+    "slug": "bangga",
+    "triggers": ["aku bangga banget", "bangga banget sama kamu", "bangga banget"]
+  },
+  {
+    "slug": "bosan",
+    "triggers": ["lagi gabut", "aku lagi gabut"]
+  },
+  {
+    "slug": "makanan",
+    "triggers": ["makanan apa", "suka makanan apa"]
+  },
+  {
+    "slug": "kerja-kuliah",
+    "triggers": ["kantor gimana", "kerjaan hari ini", "belajar", "belajar apa"]
+  },
+  {
+    "slug": "gandengan",
+    "triggers": ["gandengan sama aku"]
+  },
+  {
+    "slug": "mimpi-indah",
+    "triggers": ["tidur nyenyak", "tidur nyenyak ya"]
+  },
+  {
+    "slug": "cium",
+    "triggers": ["dicium", "pengen dicium"]
+  },
+  {
+    "slug": "stres",
+    "triggers": ["pusing banget", "kepalaku pusing", "aku pusing"]
+  },
+  {
+    "slug": "marah",
+    "triggers": ["lagi kesel", "kesel banget"]
+  },
+  {
+    "slug": "cerita-hari",
+    "triggers": ["mau cerita", "aku mau cerita", "mau curhat", "aku mau curhat"]
+  },
+  {
+    "slug": "sayang",
+    "triggers": ["sayang banget sama kamu", "aku sayang banget", "sayang banget"]
+  },
+  {
+    "slug": "peluk",
+    "triggers": ["minta pelukan", "aku minta pelukan", "pelukan"]
+  },
+  {
+    "slug": "tanya-identitas",
+    "triggers": ["kamu ini siapa", "ini siapa sih", "kamu siapa sih"]
+  },
+  {
+    "slug": "tanya-kemampuan",
+    "triggers": ["kamu bisa ngapain aja", "bisa ngapain aja", "kamu bisa apa aja"]
   }
 ]

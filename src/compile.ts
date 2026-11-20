@@ -10,6 +10,7 @@ import fs from "node:fs";
 import readline from "node:readline";
 import { Store, DB_PATH, CORPUS_PATH, SCHEMA } from "./store.ts";
 import { normalize } from "./normalize.ts";
+import { skipNgram } from "./stopwords.ts";
 import { loadSeeds } from "./seeds.ts";
 
 // ---------------------------------------------------------------- seed
@@ -71,18 +72,6 @@ store.tx(() => {
   }
 });
 
-// n-gram yang terlalu generik: muncul di banyak intent dan hanya membuat seri
-// skor tanpa menambah makna ("aku pengen", "sama kamu", ...).
-const GENERIC_NGRAMS = new Set([
-  "aku mau", "aku pengen", "aku ingin", "saya mau", "saya pengen",
-  "gue mau", "gw mau", "kamu mau", "kamu pengen", "sama kamu", "kamu sama",
-  "aku sama", "aku kamu", "kamu aku",
-]);
-
-function indexable(ngram: string): boolean {
-  return !GENERIC_NGRAMS.has(ngram);
-}
-
 // ---------------------------------------------------------------- hitung trigram
 const counts = new Map<string, number>(); // "ngram\u0000intentId" -> jumlah
 
@@ -91,7 +80,7 @@ function bump(text: string, intentId: number): void {
   if (norm.ngrams.length === 0) return;
   const uniq = new Set(norm.ngrams);
   for (const g of uniq) {
-    if (!indexable(g)) continue;
+    if (skipNgram(g)) continue;
     const key = `${g}\u0000${intentId}`;
     counts.set(key, (counts.get(key) ?? 0) + 1);
   }
@@ -159,7 +148,7 @@ for (const [text, ids] of uniqueTexts) {
   }
   for (const id of ids) {
     for (const g of ngrams) {
-      if (!indexable(g)) continue;
+      if (skipNgram(g)) continue;
       const key = `${g}\u0000${id}`;
       counts.set(key, (counts.get(key) ?? 0) + 1);
     }

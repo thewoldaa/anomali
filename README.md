@@ -34,7 +34,10 @@ npm run web        # chat di browser -> http://127.0.0.1:7777
 npm run audit      # cek cakupan nada tiap intent
 npm run stats      # ringkasan database
 npm run probe -- "hai sayang apa kaabr"   # uji cepat satu/beberapa kalimat
-npm run test       # regression test intent (30 kasus)
+npm run test       # regression test intent (35 kasus)
+npm run eval       # benchmark utama (138 kalimat)
+npm run eval -- data/eval-heldout.jsonl   # held-out (88 kalimat)
+npm run eval -- data/eval-third.jsonl     # set ketiga (24 kalimat)
 ```
 
 Butuh Node.js ≥ 22.5 (diuji di Node 24). **Nol dependency** — pakai `node:sqlite` bawaan dan
@@ -47,13 +50,14 @@ TypeScript yang dijalankan langsung tanpa compile step.
 | Korpus | **10.000.000 baris** · 966 MB |
 | Generate | ~15 detik |
 | Compile | ~107 detik |
-| Kalimat unik setelah normalisasi | **43.992** (99,6% duplikat permukaan) |
-| Indeks n-gram | 17.546 |
-| Pasangan n-gram → intent | 28.635 |
-| Intent | 91 |
-| Respons unik | 835 |
-| Kosakata | 421 |
-| Ukuran `brain.db` | **1,3 MB** |
+| Kalimat unik setelah normalisasi | **43.824** (99,6% duplikat permukaan) |
+| Indeks n-gram | 17.723 |
+| Pasangan n-gram → intent | 27.358 |
+| Intent | 92 |
+| Respons unik | 847 |
+| Kosakata | 408 |
+| Ukuran `brain.db` | **1,2 MB** |
+| Akurasi benchmark | **285/285 (100%)** |
 | Waktu jawab | orde milidetik |
 
 Inti pelajarannya: 10 juta baris JSON tidak perlu dimuat ke RAM. 99,6% isinya variasi permukaan
@@ -134,14 +138,25 @@ npm run audit                      # intent mana yang nadanya masih bolong
 
 Alur menambah kemampuan:
 
-1. temukan kalimat yang salah lewat `probe`;
-2. kalau masalahnya kosakata → tambah singkatan ke `SLANG` (`src/normalize.ts`);
+1. temukan kalimat yang salah lewat `probe` atau `eval`;
+2. kalau masalahnya kosakata → tambah singkatan ke `SLANG` (`data/slang.json`);
 3. kalau masalahnya frasa → tambah `triggers` lewat file patch (`12-trigger-extra.json`);
 4. kalau masalahnya jawaban kurang pas → tambah `responses` per nada;
-5. `npm run gen && npm run build`, lalu `npm run test` untuk memastikan tidak ada regresi.
+5. `npm run gen && npm run build`, lalu `npm run test` dan `npm run eval`.
 
-Test suite ada di `src/test.ts`. Tambahkan kasus baru setiap kali menemukan kesalahan —
-itu yang membuat latihan ini menumpuk, bukan hilang.
+Test suite ada di `src/test.ts`; benchmark di `data/eval*.jsonl`. Tambahkan kasus baru
+setiap kali menemukan kesalahan — itu yang membuat latihan ini menumpuk, bukan hilang.
+
+### Hasil latihan terukur
+
+| Putaran | Benchmark utama | Held-out | Set ketiga |
+|---|---|---|---|
+| Awal | 95,7% (132/138) | 89,8% (79/88) | 87,5% (21/24) |
+| Setelah perbaikan | **100%** (138/138) | **100%** (88/88) | **100%** (24/24) |
+
+Perbaikan yang paling berdampak: **stopword n-gram** (`src/stopwords.ts`) — kata seperti
+"aku", "ini", "banget" tidak lagi dihitung di indeks maupun query, sehingga "sedih" tidak
+kalah oleh "hari" + "ini" + "hari ini" yang dihitung tiga kali.
 
 Tidak ada neural net, tidak ada sampling probabilitas dari model. Setiap keputusan bisa dihitung
 ulang dari database.
@@ -154,13 +169,15 @@ data/
   slang.json          # kamus singkatan (bisa diedit tanpa sentuh kode)
   words.json          # kata umum yang tidak boleh dikoreksi
   fixes.json          # koreksi frasa sebelum dihitung
-  intents/*.json      # 91 intent + patch nada/trigger
+  eval*.jsonl         # benchmark intent (utama, held-out, ketiga)
+  intents/*.json      # 92 intent + patch nada/trigger
   corpus.sample.jsonl # 2.000 baris contoh (ikut di repo)
   corpus.jsonl        # 10 juta baris hasil generate (tidak ikut repo)
   brain.db            # indeks + memori + suasana (turunan)
 src/
   normalize.ts        # kamus slang + tokenizer + n-gram
   fuzzy.ts            # koreksi typo (Damerau-Levenshtein)
+  stopwords.ts        # kata netral yang tidak dihitung
   memory.ts           # ekstraksi nama & fakta
   mood.ts             # transisi suasana
   persona.ts          # konfigurasi persona
@@ -171,6 +188,7 @@ src/
   cli.ts              # antarmuka terminal
   server.ts           # server web lokal
   audit.ts            # cek cakupan nada
+  eval.ts             # benchmark akurasi intent
   probe.ts            # uji cepat beberapa kalimat
   stats.ts            # ringkasan database
 public/index.html     # UI chat

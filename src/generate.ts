@@ -50,13 +50,13 @@ const SLANG_STYLES: Array<(s: string) => string> = [
 
 const BASE_PREFIXES = [
   "", "eh ", "hmm ", "btw ", "jujur ", "sebenernya ", "sayang ", "beb ",
-  "woy ", "sumpah ", "malam ini ", "pagi ini ", "kamu tau gak ", "aku mau bilang ",
+  "woy ", "sumpah ", "kamu tau gak ", "aku mau bilang ",
 ];
 
 /** Prefix gabungan yang tetap terasa alami kalau ruang varian perlu diperluas. */
 const EXTRA_PREFIXES = [
   "eh jujur ", "eh btw ", "hmm btw ", "eh iya ", "iya eh ",
-  "jujur deh ", "sumpah deh ", "sebenernya sih ", "kak eh ", "eh malam ini ",
+  "jujur deh ", "sumpah deh ", "sebenernya sih ", "kak eh ", "duh ",
 ];
 
 // akhiran conversation filler. Semuanya dinormalisasi jadi kosong, jadi

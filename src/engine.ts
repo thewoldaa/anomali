@@ -12,6 +12,7 @@
 import { Store, DB_PATH } from "./store.ts";
 import { normalize, ngramsOf } from "./normalize.ts";
 import { correctTokens } from "./fuzzy.ts";
+import { skipNgram, STOP_TOKENS } from "./stopwords.ts";
 import { extractName, saveFact, getFact, loadVocab, listFacts, clearFacts } from "./memory.ts";
 import { loadPersona, SIMILARITY, toneLabel, TONES } from "./persona.ts";
 import type { Persona, ToneKey } from "./persona.ts";
@@ -51,7 +52,7 @@ export type Reply = {
 const LEN_BOOST = [0, 1.0, 1.6, 2.2];
 const MIN_MATCH = 0.12;
 const CONFIDENT = 0.35;
-const DEFAULT_IDF = 4.0;
+const DEFAULT_IDF = 8.0;
 const RECENT_KEEP = 60;
 const RECENT_AVOID = 18;
 
@@ -205,6 +206,7 @@ export class Engine {
     for (const g of ngrams) {
       if (seen.has(g)) continue;
       seen.add(g);
+      if (skipNgram(g)) continue;
 
       const len = g.split(" ").length;
       const boost = LEN_BOOST[len] ?? 1;
@@ -266,7 +268,19 @@ export class Engine {
     let chosen = ranked[0];
     let mode: Think["mode"];
 
-    if (!chosen || chosen.conf < MIN_MATCH) {
+    // bukti dianggap cukup kalau kata bermakna di pesan tertangkap,
+    // atau ada frasa yang cocok, atau keyakinannya tinggi
+    const contentTokens = tokens.filter((t) => !STOP_TOKENS.has(t));
+    const matchedContent = new Set<string>();
+    for (const m of matched) {
+      for (const t of m.g.split(" ")) {
+        if (!STOP_TOKENS.has(t)) matchedContent.add(t);
+      }
+    }
+    const coverage = contentTokens.length ? matchedContent.size / contentTokens.length : 0;
+    const weak = Boolean(chosen) && !chosen.exact && coverage < 0.5 && chosen.conf < 0.25;
+
+    if (!chosen || chosen.conf < MIN_MATCH || weak) {
       if (!fallback) throw new Error("intent fallback-nggakpaham tidak ada di data/intents");
       chosen = { id: fallback.id, meta: fallback, conf: 0, hit: 0, exact: false };
       mode = "bingung";
