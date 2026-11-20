@@ -39,6 +39,7 @@ const cases: Case[] = [
   { input: "km siapa sih", expect: "tanya-identitas" },
   { input: "aku sedih bgt", expect: "sedih" },
   { input: "kmrn aku cape banget", expect: "capek" },
+  { input: "kmrn aku cape", expect: "capek" },
   { input: "makasih ya sayang", expect: "terima-kasih" },
   { input: "kmu ganteng bgt", expect: "pujian-user" },
   { input: "aku pngen ngopi", expect: "kopi" },

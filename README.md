@@ -109,8 +109,9 @@ Tiga lapis, semuanya berjalan **sebelum** teks dihitung:
    `pngen→pengen`, `jgn→jangan`, `bgt→banget`, `blm→belum`, dan ratusan lainnya.
 3. **Koreksi jarak edit** — `src/fuzzy.ts`, Damerau-Levenshtein (transposisi dihitung satu
    langkah) + pelipatan ejaan (`ph/f→p`, `v→p`, `z→j`, `oe→u`, `dj→j`, `tj→c`). Hanya dipakai
-   kalau kata tidak dikenal dan kandidatnya **tunggal**. Huruf berulang berlebih diringkas dulu,
-   dan kata panjang wajib diawali huruf yang sama.
+   kalau kata tidak dikenal dan kandidatnya **tunggal**. Jarak dibatasi 1, huruf berulang berlebih
+   diringkas dulu, kata wajib diawali huruf yang sama, dan kata umum yang sah dilindungi oleh
+   `data/words.json` (jadi "kemarin" tidak akan berubah jadi "kenalin").
 
 Kalau teks banyak typo, keyakinan diturunkan sedikit (`fixPenalty`), dan kalau dua kandidat
 hampir seri, mode berubah dari *yakin* ke *menebak* — bot tidak sok tahu.
@@ -151,6 +152,7 @@ ulang dari database.
 data/
   persona.json        # suasana: bobot, inersia, kalimat cadangan
   slang.json          # kamus singkatan (bisa diedit tanpa sentuh kode)
+  words.json          # kata umum yang tidak boleh dikoreksi
   fixes.json          # koreksi frasa sebelum dihitung
   intents/*.json      # 91 intent + patch nada/trigger
   corpus.sample.jsonl # 2.000 baris contoh (ikut di repo)

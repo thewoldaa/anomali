@@ -7,7 +7,7 @@
  * Hanya dilakukan kalau kandidatnya TUNGGAL. Kalau ambigu, kata dibiarkan
  * apa adanya — lebih baik tidak menebak daripada menebak salah.
  */
-import { SLANG } from "./normalize.ts";
+import { KNOWN_WORDS } from "./normalize.ts";
 
 export type Correction = { from: string; to: string };
 
@@ -77,23 +77,24 @@ export function correctTokens(tokens: string[], vocab: Set<string>): { tokens: s
   const fixes: Correction[] = [];
 
   for (const token of tokens) {
-    // sudah dikenal, angka, atau terlalu pendek -> jangan disentuh
-    if (vocab.has(token) || token.length < 3 || /^\d+$/.test(token)) {
+    // sudah dikenal, kata umum yang sah, angka, atau terlalu pendek -> jangan disentuh
+    if (vocab.has(token) || KNOWN_WORDS.has(token) || token.length < 3 || /^\d+$/.test(token)) {
       out.push(token);
       continue;
     }
 
     const target = squeeze(token);
     const foldedTarget = fold(target);
-    const max = target.length >= 6 ? 2 : 1;
+    // jarak 1 saja: cukup untuk transposisi/hilang satu huruf, tanpa melompat jauh
+    const max = 1;
 
     let best = max + 1;
     const candidates: string[] = [];
 
     for (const word of vocab) {
       const foldedWord = fold(word);
-      // kata panjang wajib diawali huruf yang sama; mengurangi koreksi liar
-      if (target.length >= 6 && foldedWord[0] !== foldedTarget[0]) continue;
+      // wajib diawali huruf yang sama; mengurangi koreksi liar
+      if (foldedWord[0] !== foldedTarget[0]) continue;
       if (Math.abs(word.length - target.length) > max) continue;
       const d = Math.min(
         distance(target, word, max),
@@ -117,9 +118,4 @@ export function correctTokens(tokens: string[], vocab: Set<string>): { tokens: s
   }
 
   return { tokens: out, fixes };
-}
-
-/** Kata yang sengaja tidak boleh dikoreksi (mis. nama panggilan). */
-export function isSlangKey(token: string): boolean {
-  return Object.prototype.hasOwnProperty.call(SLANG, token);
 }

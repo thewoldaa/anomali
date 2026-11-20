@@ -25,6 +25,15 @@ function loadJson<T>(file: string, fallback: T): T {
 /** Kamus slang/singkatan -> bentuk baku. Nilai "" berarti token dibuang. */
 export const SLANG: Record<string, string> = loadJson<Record<string, string>>("slang.json", {});
 
+/** Kata umum yang sah; tidak boleh "dikoreksi" oleh fuzzy. */
+const COMMON_WORDS: string[] = loadJson<string[]>("words.json", []);
+
+export const KNOWN_WORDS: Set<string> = new Set([
+  ...Object.keys(SLANG),
+  ...Object.values(SLANG).filter((v) => Boolean(v)),
+  ...COMMON_WORDS,
+]);
+
 type FixData = { phrases?: Record<string, string> };
 
 const PHRASES: Record<string, string> = loadJson<FixData>("fixes.json", {}).phrases ?? {};
