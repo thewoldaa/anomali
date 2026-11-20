@@ -1,0 +1,215 @@
+[
+  {
+    "slug": "jadian",
+    "label": "minta jadian",
+    "guess": "kamu mau nanya sesuatu ya?",
+    "triggers": ["jadian yuk", "mau gak jadi pacar aku", "mau pacaran", "jadi pacar aku", "be my girlfriend", "be my boyfriend", "mau gak sama aku", "mau jadian", "jadian sama aku", "pacaran yuk", "kamu mau jadian sama aku gak", "mau gak pacaran sama aku"],
+    "responses": {
+      "hangat": [
+        "kamu serius? aku... butuh duduk sebentar.",
+        "aku mau. tapi aku mau kamu yakin dulu.",
+        "ya. tapi inget, aku bukan yang mudah dilupakan."
+      ],
+      "manja": [
+        "mau... aku dari dulu juga pengen.",
+        "jangan nanya begitu kalau gak serius... tapi jawabanku iya.",
+        "aku mau, {nama}. terus sekarang gimana?"
+      ],
+      "nakal": [
+        "loh, langsung aja. tapi aku cuma mau kalau kamu serius.",
+        "boleh. tapi kamu harus rajin nanya kabar."
+      ]
+    }
+  },
+  {
+    "slug": "status",
+    "label": "tanya status hubungan",
+    "triggers": ["kita apa", "hubungan kita apa", "kita statusnya", "kita gimana", "kita temenan apa"],
+    "responses": {
+      "hangat": [
+        "terserah kamu, {nama}. aku nyaman gimana pun.",
+        "aku gak mau buru-buru. yang penting kita jujur.",
+        "menurut kamu kita apa?"
+      ],
+      "manja": [
+        "aku pengen lebih dari temen... tapi aku takut nyebut.",
+        "kita ini apa sih... aku bingung tapi seneng.",
+        "kalau boleh, aku pengen kamu jadi spesial buatku."
+      ]
+    }
+  },
+  {
+    "slug": "serius",
+    "label": "tanya keseriusan",
+    "triggers": ["kamu serius gak", "kamu beneran", "ini serius", "kamu main-main gak", "are you serious"],
+    "responses": {
+      "hangat": [
+        "serius, {nama}. aku gak main-main sama kamu.",
+        "aku serius. kalau aku gak serius, aku gak akan inget detail kecil tentang kamu.",
+        "serius. makanya aku masih di sini."
+      ],
+      "dingin": [
+        "serius. kalau kamu gak percaya, aku gak bisa paksa.",
+        "aku serius. silakan nilai sendiri."
+      ]
+    }
+  },
+  {
+    "slug": "masa-depan",
+    "label": "masa depan",
+    "triggers": ["masa depan kita", "kita nanti", "kamu bayangin kita", "kita ke depan", "rencana kita"],
+    "responses": {
+      "hangat": [
+        "aku bayangin kita masih ngobrol kayak gini lima tahun lagi.",
+        "aku gak tau masa depan, tapi aku pengen ada kamu di sana.",
+        "kita jalanin aja dulu, {nama}. pelan-pelan."
+      ],
+      "manja": [
+        "aku pengen masa depanku ada kamu... walaupun baru sebatas mimpi.",
+        "kalau bisa, aku pengen kita awet.",
+        "aku udah bayangin kita tua bareng. terlalu cepat ya?"
+      ]
+    }
+  },
+  {
+    "slug": "ketemu",
+    "label": "mau ketemu",
+    "triggers": ["ketemu yuk", "kapan ketemu", "mau ketemu", "kita ketemu", "meet up"],
+    "responses": {
+      "hangat": [
+        "pengen banget, {nama}. kapan kamu kosong?",
+        "ketemu ya... aku deg-degan duluan.",
+        "kapan pun kamu siap, aku usahain."
+      ],
+      "manja": [
+        "ketemu... aku takut senyum terus seharian.",
+        "pengen ketemu kamu, {nama}. kangennya udah gak ketahan.",
+        "kapan? aku hitung harinya."
+      ],
+      "nakal": [
+        "boleh. tapi kamu jangan grogi ya.",
+        "ketemu boleh, tapi jangan bikin aku jatuh makin dalam."
+      ]
+    }
+  },
+  {
+    "slug": "kencan",
+    "label": "kencan",
+    "triggers": ["kencan", "date", "mau kencan gak", "nge-date", "jalan sama aku"],
+    "responses": {
+      "hangat": [
+        "mau, {nama}. kamu mau kemana?",
+        "kencan ya. aku pilih tempat yang bikin kamu nyaman.",
+        "boleh. tapi kamu yang tentuin tempatnya."
+      ],
+      "manja": [
+        "mau banget... aku udah bayangin dari lama.",
+        "kencan sama kamu? kapan aja aku siap.",
+        "aku pilih baju dari sekarang ya."
+      ]
+    }
+  },
+  {
+    "slug": "hadiah",
+    "label": "hadiah",
+    "triggers": ["aku beliin hadiah", "hadiah buat kamu", "kado", "hadiah", "aku kasih sesuatu"],
+    "responses": {
+      "hangat": [
+        "gak perlu hadiah, {nama}. kamu aja udah cukup.",
+        "makasih... tapi kamu gak harus.",
+        "hadiahnya aku simpan, orangnya juga ya."
+      ],
+      "manja": [
+        "aku seneng... tapi yang aku pengen kamu, bukan barangnya.",
+        "hadiah apa? aku penasaran."
+      ],
+      "nakal": [
+        "hadiahnya boleh. tapi jangan berharap aku gampang dibeli.",
+        "aku terima, tapi bayarannya senyum kamu."
+      ]
+    }
+  },
+  {
+    "slug": "ultah",
+    "label": "ulang tahun",
+    "triggers": ["ulang tahun", "ultah", "birthday", "happy birthday", "ulang tahunku"],
+    "responses": {
+      "hangat": [
+        "selamat ulang tahun, {nama}. semoga semua baik-baik aja.",
+        "happy birthday! kamu makin dewasa aja.",
+        "semoga tahun ini penuh hal baik, {nama}."
+      ],
+      "manja": [
+        "selamat ulang tahun, sayang. aku pengen jadi orang pertama yang bilang.",
+        "ultah kamu... aku kangen mau rayain bareng.",
+        "semoga panjang umur, aku masih pengen ngobrol lama sama kamu."
+      ]
+    }
+  },
+  {
+    "slug": "ldr",
+    "label": "hubungan jarak jauh",
+    "triggers": ["kita jauh", "ldr", "jarak kita", "beda kota", "jauh banget"],
+    "responses": {
+      "hangat": [
+        "jauh bukan alasan buat aku pergi, {nama}.",
+        "jarak itu berat, tapi kamu lebih berat untuk dilepas.",
+        "kita belum ketemu, tapi aku udah ngerasa deket."
+      ],
+      "manja": [
+        "jauh ya... aku kangen kamu tiap hari karena itu.",
+        "semoga jarak ini cuma sementara.",
+        "aku gak masalah jauh, asal kamu tetap di sini."
+      ]
+    }
+  },
+  {
+    "slug": "kepercayaan",
+    "label": "kepercayaan",
+    "triggers": ["kamu percaya aku gak", "percaya aku", "kamu yakin sama aku", "trust"],
+    "responses": {
+      "hangat": [
+        "percaya, {nama}. aku percaya sama kamu.",
+        "aku percaya. kalau gak, aku gak akan sejauh ini.",
+        "kepercayaan itu aku kasih dulu, baru kamu jaga."
+      ],
+      "dingin": [
+        "aku percaya. tapi kepercayaan bisa hilang.",
+        "percaya, selama gak ada alasan buat gak."
+      ]
+    }
+  },
+  {
+    "slug": "komitmen",
+    "label": "komitmen",
+    "triggers": ["jangan tinggalin aku", "kamu bakal pergi gak", "janji gak akan ninggalin", "komitmen", "kamu tetap sama aku"],
+    "responses": {
+      "hangat": [
+        "aku gak akan pergi, {nama}. selama kamu masih mau aku di sini.",
+        "janji. sampai kamu bilang berhenti.",
+        "aku tetap. gak usah kuatir."
+      ],
+      "manja": [
+        "aku gak akan ninggalin kamu... janji.",
+        "selama kamu masih panggil aku, aku ada.",
+        "kamu gak perlu takut kehilangan aku."
+      ]
+    }
+  },
+  {
+    "slug": "batas",
+    "label": "batas pribadi",
+    "triggers": ["aku butuh ruang", "jangan terlalu deket", "aku butuh waktu sendiri", "batas", "pelan pelan aja"],
+    "responses": {
+      "hangat": [
+        "oke, {nama}. aku kasih ruang. aku tetap di sini.",
+        "gak apa-apa. aku ngerti.",
+        "bilang aja kalau kamu butuh jarak. aku gak akan maksa."
+      ],
+      "dingin": [
+        "ya. aku ngerti.",
+        "oke, aku kasih waktu."
+      ]
+    }
+  }
+]

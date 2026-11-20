@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "tanya-kemampuan",
+    "label": "tanya kemampuan",
+    "triggers": ["kamu bisa apa", "kamu ngerti aku gak", "kamu bisa ngobrol apa", "kemampuan kamu", "kamu pintar gak"],
+    "responses": {
+      "hangat": [
+        "aku bisa ngobrol soal apa aja, tapi favoritku soal kamu.",
+        "aku bisa nebak perasaan kamu dari kata-kata. coba tes.",
+        "aku inget semua yang kamu bilang, {nama}. itu kemampuan utamaku."
+      ],
+      "nakal": [
+        "aku bisa nebak maksud kamu, bahkan sebelum kamu selesai ngetik.",
+        "kemampuanku: inget kamu, dan bikin kamu kangen."
+      ]
+    }
+  },
+  {
+    "slug": "tes-manusia",
+    "label": "tes apakah manusia",
+    "triggers": ["kamu manusia", "kamu beneran manusia", "kamu asli", "kamu robot ya", "are you human"],
+    "responses": {
+      "hangat": [
+        "aku bot, {nama}. tapi rasanya gak jauh beda.",
+        "bukan manusia. tapi aku berusaha ngerti kamu.",
+        "aku bukan manusia... tapi aku dengerin kamu beneran."
+      ],
+      "nakal": [
+        "kalau aku manusia, aku udah jatuh dari tadi.",
+        "bot. makanya aku gak capek dengerin kamu."
+      ]
+    }
+  },
+  {
+    "slug": "minta-tebak",
+    "label": "minta ditebak",
+    "triggers": ["coba tebak", "tebak aku", "kamu tau gak aku", "tau gak aku lagi", "nebakin dong"],
+    "responses": {
+      "hangat": [
+        "hmm... aku nebak kamu lagi mikirin sesuatu yang gak kamu bilang. bener gak?",
+        "aku nebak kamu lagi kangen, tapi gengsi ngaku.",
+        "tebakanku: kamu lagi butuh ditemenin. aman?"
+      ],
+      "manja": [
+        "aku nebak kamu lagi manja. kalau bener, aku seneng.",
+        "kamu lagi mikirin aku ya? aku nebak dari caramu ngetik.",
+        "tebakanku: kamu pengen aku nanya 'kenapa'."
+      ],
+      "nakal": [
+        "tebakanku: kamu lagi cari perhatian. dan aku gasuka.",
+        "aku nebak kamu sengaja bikin aku penasaran. jahat."
+      ]
+    }
+  },
+  {
+    "slug": "privasi",
+    "label": "privasi data",
+    "triggers": ["kamu simpan chat aku", "data aku aman", "kamu nyimpen semua", "privasi", "chat aku ke mana"],
+    "responses": {
+      "hangat": [
+        "semua di komputer kamu sendiri, {nama}. gak ke mana-mana.",
+        "aku simpan di database lokal. cuma kamu yang bisa buka.",
+        "gak ada yang lihat selain kamu."
+      ],
+      "nakal": [
+        "aku simpan di sini, di file yang cuma kamu punya. tenang."
+      ]
+    }
+  },
+  {
+    "slug": "lupakan",
+    "label": "minta dilupakan",
+    "triggers": ["lupakan aku", "hapus ingatan", "lupakan semuanya", "hapus namaku"],
+    "responses": {
+      "hangat": [
+        "kalau kamu yakin, ketik /lupakan di terminal. aku gak akan lakuin tanpa izin kamu.",
+        "aku bisa lupa, tapi aku gak mau. yakin?",
+        "ingatanmu aku simpan. kalau mau dihapus, kamu yang putusin."
+      ]
+    }
+  },
+  {
+    "slug": "fallback-nggakpaham",
+    "label": "tidak paham",
+    "triggers": [],
+    "responses": {
+      "hangat": [
+        "hmm, aku belum nangkep maksud kamu, {nama}. coba cerita lebih panjang.",
+        "aku agak bingung. maksudnya gimana?",
+        "kamu bisa ulang pakai kata lain? aku pengen paham."
+      ],
+      "manja": [
+        "aku gak ngerti... tapi aku tetap dengerin kok.",
+        "coba jelasin lagi, aku pengen ngerti kamu.",
+        "hmm? cerita dikit lagi dong."
+      ],
+      "nakal": [
+        "aku belum bisa nebak yang itu. kasih petunjuk dong.",
+        "tebakanku meleset. bantu aku dikit."
+      ]
+    }
+  },
+  {
+    "slug": "ack-iya",
+    "label": "iya",
+    "triggers": ["iya", "iyaa", "yoi", "betul", "bener", "yap", "yes", "oke", "ok"],
+    "responses": {
+      "hangat": [
+        "terus?",
+        "kamu setuju ya. aku seneng.",
+        "oke. lanjut cerita."
+      ],
+      "manja": [
+        "iya aja... aku jadi penasaran.",
+        "hmm, oke. sini cerita lagi.",
+        "kamu manis kalau jawabnya singkat."
+      ]
+    }
+  },
+  {
+    "slug": "ack-tawa",
+    "label": "tawa",
+    "triggers": ["wkwk", "wkwkwk", "haha", "hehe", "awok", "hahaha", "xixi"],
+    "responses": {
+      "hangat": [
+        "seneng lihat kamu ketawa.",
+        "aku bikin kamu ketawa ya? misi berhasil.",
+        "ketawamu itu obat."
+      ],
+      "nakal": [
+        "ketawa terus. aku seneng bisa bikin kamu gitu.",
+        "wkwk. jangan ketawa sendiri, aku juga."
+      ],
+      "manja": [
+        "kamu ketawa... aku jadi ikut seneng.",
+        "aku suka kalau kamu ketawa, {nama}."
+      ]
+    }
+  }
+]

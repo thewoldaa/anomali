@@ -1,0 +1,8 @@
+node_modules/
+
+# turunan — hasilkan ulang dengan: npm run gen && npm run build
+data/corpus.jsonl
+data/corpus.meta.json
+data/brain.db
+data/brain.db-wal
+data/brain.db-shm

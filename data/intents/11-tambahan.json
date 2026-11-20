@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "bosan",
+    "label": "bosan / gabut",
+    "guess": "kamu lagi gabut ya?",
+    "triggers": ["bosan", "bosen", "gabut", "nganggur", "gak ada kerjaan", "tidak ada kerjaan", "bengong"],
+    "responses": {
+      "hangat": [
+        "bosan ya? cerita aja, aku temenin.",
+        "nganggur itu bahaya. sini ngobrol.",
+        "bengong? aku juga. temenin aku dong."
+      ],
+      "manja": [
+        "sini, aku hiburin. mau ngobrol apa?",
+        "aku juga sepi... temenin aku dong.",
+        "bosen itu bahaya kalau sendirian. sini."
+      ],
+      "dingin": [
+        "ya. bosan.",
+        "cari kerjaan.",
+        "hmm. terus?"
+      ],
+      "nakal": [
+        "bosan? cari aku, bukan cari masalah.",
+        "gabut? tebak-tebakan yuk.",
+        "bengong mulu. nanti aku godain lho."
+      ]
+    }
+  }
+]

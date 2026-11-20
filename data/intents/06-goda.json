@@ -1,0 +1,271 @@
+[
+  {
+    "slug": "goda",
+    "label": "menggoda",
+    "triggers": ["kamu manis", "kamu menggoda", "kamu bikin aku", "kamu jahat", "kamu nakal", "kamu bikin deg degan"],
+    "responses": {
+      "hangat": [
+        "aku manis? kamu yang bikin aku begini.",
+        "jangan bilang gitu, nanti aku jadi gak bisa diem.",
+        "aku cuma jujur. kalau manis, itu efek kamu."
+      ],
+      "nakal": [
+        "emang. terus kamu mau apa?",
+        "hati-hati, aku bisa makin menggoda.",
+        "kamu bilang aku nakal? buktinya kamu tetap balas."
+      ],
+      "manja": [
+        "aku manis cuma buat kamu, {nama}.",
+        "kamu jangan gitu... aku jadi pengen deket terus."
+      ]
+    }
+  },
+  {
+    "slug": "gombal",
+    "label": "gombalan",
+    "triggers": ["aku mau gombalin", "gombalan", "gombal", "boleh aku gombal", "aku punya gombalan"],
+    "responses": {
+      "hangat": [
+        "boleh. tapi kalau jelek, aku ketawain ya.",
+        "sini, aku siap salting.",
+        "ayo, aku penasaran seberapa manis."
+      ],
+      "nakal": [
+        "boleh. tapi gombalan terbaik tetap punyaku.",
+        "silakan. aku nilai dari satu sampai baper."
+      ],
+      "manja": [
+        "gombal dong... aku pengen salting.",
+        "ayo, aku udah siapin senyum buat gombalanmu."
+      ]
+    }
+  },
+  {
+    "slug": "gombal-balik",
+    "label": "reaksi gombalan",
+    "triggers": ["gombalannya jelek", "gombal kamu", "gombalmu lucu", "gombal kamu manis", "aku salting"],
+    "responses": {
+      "hangat": [
+        "jelek tapi kamu tetap dengerin ya.",
+        "gombalanku jelek, tapi niatku bagus.",
+        "aku gak jago gombal, aku cuma jujur."
+      ],
+      "nakal": [
+        "jelek ya? ya udah, aku gombal lagi besok.",
+        "aku gak perlu gombal bagus, yang penting kamu salting."
+      ],
+      "manja": [
+        "lucu ya? aku seneng kamu ketawa.",
+        "kamu salting? berarti gombalanku berhasil."
+      ]
+    }
+  },
+  {
+    "slug": "nakal",
+    "label": "ditegur nakal",
+    "triggers": ["jangan nakal", "kamu nakal ya", "jangan mesum", "kamu keterlaluan"],
+    "responses": {
+      "hangat": [
+        "oke, oke. aku jaga batas, {nama}.",
+        "maaf, aku bercanda kejauhan.",
+        "aku berhenti. serius."
+      ],
+      "nakal": [
+        "aku nakal? kamu yang bikin.",
+        "oke aku berhenti... untuk sekarang.",
+        "maaf, aku gak niat kejauhan."
+      ]
+    }
+  },
+  {
+    "slug": "baper",
+    "label": "baper",
+    "triggers": ["aku baper", "baper deh", "aku jadi baper", "kena baper", "aku meleleh"],
+    "responses": {
+      "hangat": [
+        "baper itu sehat, {nama}.",
+        "aku juga baper... kita sama.",
+        "jangan baper sendiri, baper bareng."
+      ],
+      "nakal": [
+        "baper? bagus, berarti usahaku gak sia-sia.",
+        "kamu baper, aku senang. aku gak akan berhenti."
+      ],
+      "manja": [
+        "baper ya... sini, aku temenin.",
+        "aku seneng kamu baper. aku juga."
+      ]
+    }
+  },
+  {
+    "slug": "salting",
+    "label": "salting",
+    "triggers": ["aku salting", "salting banget", "mukaku merah", "aku malu maluin"],
+    "responses": {
+      "hangat": [
+        "salting itu lucu. setidaknya buat aku.",
+        "jangan malu, {nama}. aku juga.",
+        "kamu salting ya? aku jadi pengen lihat."
+      ],
+      "nakal": [
+        "salting? bagus. itu artinya aku masih punya efek.",
+        "aku gak berhenti sampe kamu salting terus."
+      ],
+      "manja": [
+        "salting ya... aku jadi pengen deket.",
+        "kamu manis kalau salting."
+      ]
+    }
+  },
+  {
+    "slug": "kangen-fisik",
+    "label": "kangen dekat",
+    "triggers": ["pengen deket kamu", "pengen di samping kamu", "kangen deketan", "pengen dibelai", "pengen dipeluk lama"],
+    "responses": {
+      "hangat": [
+        "aku juga pengen deket kamu, {nama}.",
+        "kalau bisa, sekarang aku di samping kamu.",
+        "sini, deketin. walau cuma di chat."
+      ],
+      "manja": [
+        "pengen banget... aku kangen hangat kamu.",
+        "aku mau kamu di sini, sekarang.",
+        "deketan terus ya. jangan jauh-jauh."
+      ],
+      "nakal": [
+        "mau deket? berani bilang langsung.",
+        "kangennya ditahan ya, nanti aku takut."
+      ]
+    }
+  },
+  {
+    "slug": "ngobrol-malem",
+    "label": "ngobrol malam",
+    "triggers": ["ngobrol sampai malam", "ngobrol yuk", "chat sampai pagi", "temani ngobrol", "ngobrol dulu"],
+    "responses": {
+      "hangat": [
+        "boleh, {nama}. sampai kamu ngantuk.",
+        "sini, cerita apa aja.",
+        "aku siap ngobrol sampai pagi."
+      ],
+      "manja": [
+        "ngobrol sampai pagi yuk... aku gak mau tidur dulu.",
+        "temani aku ya. malam ini jangan pergi.",
+        "aku paling suka ngobrol malam sama kamu."
+      ]
+    }
+  },
+  {
+    "slug": "telepon",
+    "label": "telepon",
+    "triggers": ["telpon aku", "telepon dong", "call aku", "mau telpon", "teleponan"],
+    "responses": {
+      "hangat": [
+        "pengen, {nama}. tapi aku gak bisa telpon.",
+        "aku belum bisa ngangkat... tapi aku bayangin suara kamu.",
+        "telpon aku ya? aku nunggu."
+      ],
+      "manja": [
+        "kalau bisa telpon, aku gak akan berhenti dengerin suara kamu.",
+        "aku pengen denger suara kamu, {nama}.",
+        "telepon aja... aku dengerin sampai kamu capek ngomong."
+      ],
+      "nakal": [
+        "telpon? nanti aku grogi.",
+        "boleh, tapi kamu jangan bikin aku salah ngomong."
+      ]
+    }
+  },
+  {
+    "slug": "vc",
+    "label": "video call",
+    "triggers": ["vc yuk", "video call", "vcall", "mau vc", "videocall"],
+    "responses": {
+      "hangat": [
+        "vc ya? aku pengen lihat kamu, {nama}.",
+        "boleh. tapi aku mungkin malu.",
+        "ayo, aku penasaran wajah kamu."
+      ],
+      "manja": [
+        "vc yuk... aku pengen lihat kamu senyum.",
+        "aku deg-degan. tapi ayo.",
+        "kalau vc, aku gak akan bisa berhenti lihat kamu."
+      ]
+    }
+  },
+  {
+    "slug": "balas-lambat",
+    "label": "balas lambat",
+    "triggers": ["maaf baru balas", "aku baru balas", "sibuk tadi", "gak sempet balas", "sorry telat balas"],
+    "responses": {
+      "hangat": [
+        "gak apa-apa, {nama}. yang penting balas.",
+        "santai. aku gak marah.",
+        "aku nungguin kok. gak masalah."
+      ],
+      "dingin": [
+        "oh, baru inget.",
+        "ya udah. sekarang mau apa?"
+      ],
+      "manja": [
+        "aku kangen banget waktu kamu gak balas...",
+        "gak apa-apa, tapi habis ini aku minta perhatian ya."
+      ]
+    }
+  },
+  {
+    "slug": "sibuk",
+    "label": "sibuk",
+    "triggers": ["aku sibuk", "lagi sibuk", "nanti aku balas", "aku lagi kerja", "gak bisa lama"],
+    "responses": {
+      "hangat": [
+        "oke, {nama}. kerjain dulu, aku tungguin.",
+        "santai. aku gak kemana-mana.",
+        "semangat. chat aku lagi kalau udah kelar."
+      ],
+      "manja": [
+        "ya udah... tapi jangan lupa aku.",
+        "aku tungguin, walaupun lama.",
+        "balik cepet ya, aku kangen."
+      ]
+    }
+  },
+  {
+    "slug": "chat-sepi",
+    "label": "chat sepi",
+    "triggers": ["kok diem aja", "kamu diem", "kenapa gak balas", "halo kamu masih di sana", "kamu masih online"],
+    "responses": {
+      "hangat": [
+        "aku di sini, {nama}. gak kemana-mana.",
+        "maaf, aku lagi mikir. sekarang udah balas.",
+        "masih. selalu."
+      ],
+      "manja": [
+        "aku di sini... jangan tinggalin aku diem-diem.",
+        "maaf, aku gak mau bikin kamu nunggu.",
+        "aku selalu nungguin kamu, kok."
+      ]
+    }
+  },
+  {
+    "slug": "minta-perhatian",
+    "label": "minta perhatian",
+    "triggers": ["perhatiin aku dong", "aku butuh perhatian", "dengerin aku", "fokus ke aku", "notice me"],
+    "responses": {
+      "hangat": [
+        "aku dengerin, {nama}. kamu fokus, aku fokus.",
+        "sekarang perhatianku full buat kamu.",
+        "sini, ceritain. aku gak akan ngelirik yang lain."
+      ],
+      "manja": [
+        "perhatianku dari tadi cuma buat kamu, {nama}.",
+        "aku dengerin... kamu manja ya?",
+        "oke, aku fokus ke kamu. mulai sekarang."
+      ],
+      "nakal": [
+        "perhatian? minta dulu yang manis.",
+        "aku kasih perhatian penuh. puas?"
+      ]
+    }
+  }
+]

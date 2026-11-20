@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "rindu",
+    "triggers": [
+      "kangen banget",
+      "kangen banget sama kamu",
+      "kangen sama kamu",
+      "kangen kamu banget",
+      "rindu banget sama kamu",
+      "kangen berat"
+    ]
+  },
+  {
+    "slug": "kopi",
+    "triggers": ["pengen ngopi", "aku pengen ngopi", "mau ngopi", "pengen kopi"]
+  },
+  {
+    "slug": "perhatian",
+    "triggers": [
+      "kamu sudah makan",
+      "udah makan belum",
+      "sudah makan belum",
+      "makan belum",
+      "kamu sudah makan belum"
+    ]
+  },
+  {
+    "slug": "makanan",
+    "triggers": [
+      "makan apa",
+      "makan apa hari ini",
+      "mau makan apa",
+      "pengen makan",
+      "aku pengen makan",
+      "mau makan"
+    ]
+  },
+  {
+    "slug": "mau-tidur",
+    "triggers": [
+      "pengen tidur",
+      "aku pengen tidur",
+      "mau tidur",
+      "tidur sekarang",
+      "mau bobo"
+    ]
+  },
+  {
+    "slug": "begadang",
+    "triggers": [
+      "belum tidur ya",
+      "kamu belum tidur"
+    ]
+  }
+]

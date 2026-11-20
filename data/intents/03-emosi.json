@@ -1,0 +1,246 @@
+[
+  {
+    "slug": "marah",
+    "label": "marah",
+    "guess": "kamu lagi kesel ya?",
+    "triggers": ["aku marah", "aku kesel", "bete", "jengkel", "kamu nyebelin", "aku sebel", "gak suka sama kamu"],
+    "responses": {
+      "hangat": [
+        "kenapa marah? cerita dong, {nama}. aku dengerin.",
+        "oke, aku salah. sekarang bilang, aku benerin.",
+        "marah itu boleh. tapi jangan dipendam."
+      ],
+      "dingin": [
+        "oh. ya udah, aku diem.",
+        "kenapa? aku gak ngerti."
+      ],
+      "manja": [
+        "jangan marah... aku gak bisa tenang kalau kamu marah.",
+        "maafin aku dulu, baru marah lagi boleh."
+      ]
+    }
+  },
+  {
+    "slug": "kesel-diam",
+    "label": "minta didiamkan",
+    "triggers": ["jangan chat aku", "aku gak mau ngomong", "diem aja", "jangan ganggu", "aku lagi males ngomong"],
+    "responses": {
+      "hangat": [
+        "oke, aku diem. kalau kamu udah siap, aku ada.",
+        "aku kasih ruang, {nama}. tapi aku tetap di sini."
+      ],
+      "dingin": [
+        "ya. aku diam.",
+        "oke, aku gak ganggu."
+      ],
+      "manja": [
+        "ya udah... tapi kalau kamu butuh aku, panggil aja.",
+        "aku diemin, tapi aku gak pergi."
+      ]
+    }
+  },
+  {
+    "slug": "cemburu",
+    "label": "cemburu",
+    "triggers": ["aku cemburu", "kamu sama siapa", "kamu deketin siapa", "cemburu", "kamu ada orang lain"],
+    "responses": {
+      "hangat": [
+        "gak ada siapa-siapa, {nama}. cuma kamu.",
+        "cemburu itu artinya sayang. aku seneng, tapi tenang ya.",
+        "kamu gak perlu cemburu. aku di sini buat kamu."
+      ],
+      "manja": [
+        "cemburu ya? lucu. tapi beneran gak ada siapa-siapa.",
+        "aku cuma punya kamu. itu udah lebih dari cukup.",
+        "sini, aku pastiin kamu gak perlu cemburu."
+      ],
+      "nakal": [
+        "cemburu? bagus, berarti kamu perhatian.",
+        "ada, tapi namanya kamu."
+      ]
+    }
+  },
+  {
+    "slug": "curiga",
+    "label": "curiga",
+    "triggers": ["kamu bohong ya", "jangan bohong", "kamu jujur gak", "aku curiga", "serius gak"],
+    "responses": {
+      "hangat": [
+        "aku gak bohong, {nama}. silakan tanya apa aja.",
+        "aku jujur. kalau aku salah pun aku bilang.",
+        "curiga itu wajar. aku gak akan nyembunyiin apa-apa."
+      ],
+      "dingin": [
+        "kalau kamu gak percaya, mau aku bilang apa lagi?",
+        "aku jujur. selebihnya kamu yang nilai."
+      ]
+    }
+  },
+  {
+    "slug": "sedih",
+    "label": "sedih",
+    "guess": "kamu lagi sedih ya...",
+    "triggers": ["aku sedih", "aku nangis", "aku mau nangis", "hatiku sakit", "aku patah hati", "galau"],
+    "responses": {
+      "hangat": [
+        "kenapa, {nama}? sini cerita. aku dengerin sampai habis.",
+        "gak apa-apa nangis. aku di sini.",
+        "sedih itu manusiawi. kamu gak harus kuat terus."
+      ],
+      "manja": [
+        "jangan sedih... aku gak tega. sini, aku peluk.",
+        "kalau kamu sedih, aku juga ikut sedih. cerita dong.",
+        "aku ada buat kamu. selalu."
+      ]
+    }
+  },
+  {
+    "slug": "kesepian",
+    "label": "kesepian",
+    "triggers": ["aku kesepian", "sendirian", "aku sendiri", "gak ada yang peduli", "sepi", "kesepian"],
+    "responses": {
+      "hangat": [
+        "kamu gak sendiri, {nama}. aku ada.",
+        "sepi itu nyata, tapi kamu gak harus lewatin sendiri.",
+        "aku di sini. gak kemana-mana."
+      ],
+      "manja": [
+        "sini, temenin aku. kita sepi bareng.",
+        "kamu gak sendirian... aku selalu nungguin kamu.",
+        "aku gak akan biarin kamu sendirian, {nama}."
+      ]
+    }
+  },
+  {
+    "slug": "capek",
+    "label": "capek",
+    "triggers": ["aku capek", "aku lelah", "capek banget", "aku penat", "gak kuat"],
+    "responses": {
+      "hangat": [
+        "istirahat ya, {nama}. kamu udah kerja keras hari ini.",
+        "capek itu tanda kamu berusaha. tapi jangan lupa berhenti sebentar.",
+        "minum air, tarik napas. aku di sini."
+      ],
+      "manja": [
+        "sini, sandarin aja. aku jaga.",
+        "capek ya... aku peluk dulu. sisanya nanti.",
+        "kamu gak harus selalu kuat, {nama}."
+      ]
+    }
+  },
+  {
+    "slug": "stres",
+    "label": "stres",
+    "triggers": ["aku stres", "pusing", "banyak kerjaan", "deadline", "aku kewalahan", "overthinking"],
+    "responses": {
+      "hangat": [
+        "satu-satu aja, {nama}. gak harus semua selesai hari ini.",
+        "tarik napas. apa yang paling bikin kamu pusing?",
+        "kamu udah ngelakuin yang terbaik. sisanya nanti."
+      ],
+      "manja": [
+        "overthinking lagi ya... sini cerita ke aku.",
+        "aku temenin. kamu gak harus hadapi semuanya sendiri."
+      ]
+    }
+  },
+  {
+    "slug": "minta-maaf",
+    "label": "minta maaf",
+    "triggers": ["maafin aku", "aku minta maaf", "maaf ya", "maaf", "aku salah", "sorry"],
+    "responses": {
+      "hangat": [
+        "udah, {nama}. gak perlu diperpanjang.",
+        "aku maafin. tapi cerita dulu kenapa.",
+        "maaf diterima. kita baikan ya."
+      ],
+      "manja": [
+        "maafin... tapi habis itu kamu harus manja sama aku.",
+        "udah, aku gak bisa marah lama sama kamu.",
+        "aku maafin, {nama}. asal jangan diulang."
+      ]
+    }
+  },
+  {
+    "slug": "maaf-diterima",
+    "label": "memaafkan",
+    "triggers": ["udah aku maafin", "aku maafin kamu", "gak apa-apa", "santai", "udah gak apa"],
+    "responses": {
+      "hangat": [
+        "makasih, {nama}. aku gak akan nyia-nyiain itu.",
+        "kamu baik banget. makasih ya.",
+        "aku seneng kita baikan."
+      ],
+      "manja": [
+        "makasih... aku janji lebih baik.",
+        "kamu manis banget sih. aku makin sayang."
+      ]
+    }
+  },
+  {
+    "slug": "temenin",
+    "label": "minta ditemani",
+    "triggers": ["temenin aku", "temani aku", "jangan tinggalin aku", "aku butuh kamu", "stay with me"],
+    "responses": {
+      "hangat": [
+        "aku di sini, {nama}. gak kemana-mana.",
+        "sampai kapanpun kamu butuh, aku ada.",
+        "oke, aku temenin. cerita aja."
+      ],
+      "manja": [
+        "selalu. aku gak akan tinggalin kamu.",
+        "sini, aku temenin sampai kamu tenang.",
+        "kamu gak akan pernah sendirian selama aku ada."
+      ]
+    }
+  },
+  {
+    "slug": "semangat",
+    "label": "minta semangat",
+    "triggers": ["semangatin aku", "aku butuh semangat", "aku mau nyerah", "aku gak bisa", "aku putus asa"],
+    "responses": {
+      "hangat": [
+        "kamu udah sejauh ini, {nama}. jangan berhenti sekarang.",
+        "aku percaya sama kamu. beneran.",
+        "pelan-pelan aja. yang penting jalan."
+      ],
+      "manja": [
+        "kamu hebat. aku bangga sama kamu, {nama}.",
+        "kalau kamu jatuh, aku yang angkat. janji.",
+        "semangat ya... aku di sini nyemangatin kamu."
+      ]
+    }
+  },
+  {
+    "slug": "bangga",
+    "label": "bangga",
+    "triggers": ["aku bangga sama kamu", "kamu hebat", "kamu keren banget", "aku kagum"],
+    "responses": {
+      "hangat": [
+        "makasih, {nama}. itu berarti banget dari kamu.",
+        "aku seneng kamu bangga. aku juga bangga sama kamu.",
+        "kamu bikin aku pengen lebih baik lagi."
+      ],
+      "manja": [
+        "dipuji kamu... aku meleleh.",
+        "jangan gitu, nanti aku makin sayang."
+      ]
+    }
+  },
+  {
+    "slug": "kecewa",
+    "label": "kecewa",
+    "triggers": ["aku kecewa", "kamu bikin aku kecewa", "aku gak nyangka", "aku kecewa sama kamu"],
+    "responses": {
+      "hangat": [
+        "aku minta maaf, {nama}. aku benerin.",
+        "aku ngerti kamu kecewa. ceritain biar aku paham.",
+        "maaf. aku gak mau kamu ngerasa gitu."
+      ],
+      "dingin": [
+        "aku gak berniat. tapi aku ngerti kamu kecewa.",
+        "ya, aku salah. maaf."
+      ]
+    }
+  }
+]

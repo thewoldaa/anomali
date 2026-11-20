@@ -1,0 +1,21 @@
+{
+  "_catatan": "Koreksi frasa diterapkan SEBELUM normalisasi. Kunci dicocokkan case-insensitive. Tambahkan pola yang sering salah ketik di sini.",
+  "phrases": {
+    "apa ka bar": "apa kabar",
+    "apa k bar": "apa kabar",
+    "apa kabr": "apa kabar",
+    "apa kaabr": "apa kabar",
+    "ka bar": "kabar",
+    "kmu udh": "kamu sudah",
+    "kmu udah": "kamu sudah",
+    "udh mkn": "sudah makan",
+    "udah mkn": "sudah makan",
+    "pgen tdr": "pengen tidur",
+    "pngen tdr": "pengen tidur",
+    "kangen bgt sm kmu": "kangen banget sama kamu",
+    "km kok": "kamu kok",
+    "kmu kok": "kamu kok",
+    "terima kasih": "makasih",
+    "makasih ya": "makasih"
+  }
+}

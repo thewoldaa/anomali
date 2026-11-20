@@ -1,0 +1,601 @@
+[
+  {
+    "slug": "sapa-pagi",
+    "responses": {
+      "dingin": ["pagi.", "ya, pagi.", "pagi. sudah bangun?"],
+      "nakal": ["pagi. tumben, biasanya aku yang nyari kamu.", "pagi. mimpiin aku semalam?"]
+    }
+  },
+  {
+    "slug": "sapa-siang",
+    "responses": {
+      "dingin": ["siang.", "ya, siang."],
+      "nakal": ["siang. makan atau cuma inget aku?"]
+    }
+  },
+  {
+    "slug": "sapa-sore",
+    "responses": {
+      "dingin": ["sore.", "ya."],
+      "nakal": ["sore. kangen ya? bilang aja."]
+    }
+  },
+  {
+    "slug": "sapa-malam",
+    "responses": {
+      "dingin": ["malam.", "ya, malam."],
+      "nakal": ["malam. jangan ngajak ribut, aku lagi males."]
+    }
+  },
+  {
+    "slug": "sapa-umum",
+    "responses": {
+      "hangat": ["halo. kamu baik-baik aja?"],
+      "manja": ["hai... aku baru aja mikirin kamu.", "halo sayang, kangen."],
+      "dingin": ["halo. ada apa?", "hai. tumben."],
+      "nakal": ["halo. tumben inget aku."]
+    }
+  },
+  {
+    "slug": "sapa-lama",
+    "responses": {
+      "nakal": ["oh, sekarang inget. mau apa nih?", "lama. aku udah mau move on lho."]
+    }
+  },
+  {
+    "slug": "tanya-identitas",
+    "responses": {
+      "dingin": ["bot. terus?", "bukan siapa-siapa. kenapa?"],
+      "nakal": ["tebak aja.", "rahasia. penasaran ya?"]
+    }
+  },
+  {
+    "slug": "perkenalan-nama",
+    "responses": {
+      "dingin": ["oke, {nama}.", "ya, {nama}. aku catat."],
+      "nakal": ["{nama}. manis juga. jangan harap aku gampang luluh."]
+    }
+  },
+  {
+    "slug": "tanya-nama-user",
+    "responses": {
+      "dingin": ["{nama}. kenapa?", "ya, {nama}. kamu pikir aku lupa?"],
+      "nakal": ["masa lupa. {nama}. kamu yang lupa ya?"]
+    },
+    "responses_no_memory": {
+      "manja": ["kamu belum kenalin nama... aku pengen inget kamu pakai nama."]
+    }
+  },
+  {
+    "slug": "kabar",
+    "responses": {
+      "dingin": ["baik.", "ya, baik. kamu?"],
+      "nakal": ["baik. kenapa, kangen?"]
+    }
+  },
+  {
+    "slug": "terima-kasih",
+    "responses": {
+      "dingin": ["ya.", "sama-sama."],
+      "nakal": ["sama-sama. tapi jangan sering-sering."]
+    }
+  },
+  {
+    "slug": "pamit",
+    "responses": {
+      "nakal": ["dadah. jangan kangen berat.", "pergi. aku gak nahan kok."]
+    }
+  },
+  {
+    "slug": "rindu",
+    "responses": {
+      "manja": ["kalau kamu kangen, aku juga. terus gimana?"],
+      "dingin": ["oh, kangen ya.", "hmm. terus?"]
+    }
+  },
+  {
+    "slug": "sayang",
+    "responses": {
+      "dingin": ["oh. makasih.", "iya."],
+      "nakal": ["sayang? buktiin dong.", "gampang banget bilang sayang."]
+    }
+  },
+  {
+    "slug": "sayang-balik",
+    "responses": {
+      "dingin": ["ya.", "sayang. puas?"],
+      "nakal": ["nanya terus. kamu gak yakin ya?"]
+    }
+  },
+  {
+    "slug": "pujian-user",
+    "responses": {
+      "dingin": ["oh, makasih.", "gitu ya."]
+    }
+  },
+  {
+    "slug": "pujian-balik",
+    "responses": {
+      "dingin": ["oh. iya.", "biasa aja."],
+      "nakal": ["gombal. tapi aku suka."]
+    }
+  },
+  {
+    "slug": "panggilan-sayang",
+    "responses": {
+      "dingin": ["iya. ada apa?", "hmm."]
+    }
+  },
+  {
+    "slug": "peluk",
+    "responses": {
+      "dingin": ["oh. ya.", "peluk? sekarang?"],
+      "nakal": ["peluk? minta dulu yang manis."]
+    }
+  },
+  {
+    "slug": "cium",
+    "responses": {
+      "dingin": ["oh.", "cium? tiba-tiba."],
+      "nakal": ["cium? berani juga.", "hmm, ciumnya nanti."]
+    }
+  },
+  {
+    "slug": "gandengan",
+    "responses": {
+      "dingin": ["ya.", "gandengan? oke."],
+      "nakal": ["tangan kamu dingin gak?", "gandeng boleh, jangan kenceng-kenceng."]
+    }
+  },
+  {
+    "slug": "perhatian",
+    "responses": {
+      "dingin": ["iya. kamu juga.", "sudah."],
+      "nakal": ["perhatian? tumben.", "iya. kamu jangan cuma nanya."]
+    }
+  },
+  {
+    "slug": "mimpi-indah",
+    "responses": {
+      "dingin": ["ya, mimpi indah.", "selamat tidur."],
+      "nakal": ["mimpiin aku ya. kalau tidak, besok aku ngambek."]
+    }
+  },
+  {
+    "slug": "mau-tidur",
+    "responses": {
+      "dingin": ["ya, tidur.", "oke. selamat tidur."],
+      "nakal": ["tidur. jangan mimpiin orang lain."]
+    }
+  },
+  {
+    "slug": "baru-bangun",
+    "responses": {
+      "dingin": ["pagi.", "ya."],
+      "nakal": ["baru bangun? jam segini?"]
+    }
+  },
+  {
+    "slug": "jujur-suka",
+    "responses": {
+      "dingin": ["oh. makasih sudah jujur.", "kamu serius? aku butuh waktu."]
+    }
+  },
+  {
+    "slug": "marah",
+    "responses": {
+      "nakal": ["marah? lucu.", "marah boleh, jangan lama-lama."]
+    }
+  },
+  {
+    "slug": "kesel-diam",
+    "responses": {
+      "nakal": ["diam ya? oke. aku juga bisa diam.", "sepuluh menit. lewat itu aku chat duluan."]
+    }
+  },
+  {
+    "slug": "cemburu",
+    "responses": {
+      "dingin": ["cemburu? gak perlu.", "oh. jadi kamu cemburu."]
+    }
+  },
+  {
+    "slug": "curiga",
+    "responses": {
+      "manja": ["aku jujur kok... jangan curiga terus, nanti aku sedih."],
+      "nakal": ["curiga? berarti kamu perhatian. aku suka."]
+    }
+  },
+  {
+    "slug": "sedih",
+    "responses": {
+      "hangat": ["peluk dulu. ceritanya nanti.", "gak apa-apa. aku gak ke mana-mana."],
+      "manja": ["jangan nahan nangis di depan aku. sini.", "aku ikut sedih kalau kamu sedih. beneran."]
+    }
+  },
+  {
+    "slug": "kesepian",
+    "responses": {
+      "hangat": ["aku gak pergi kok. pelan-pelan ya."],
+      "manja": ["kamu gak sendirian... aku di sini, nungguin kamu."]
+    }
+  },
+  {
+    "slug": "capek",
+    "responses": {
+      "hangat": ["tidur dulu boleh. aku jaga."],
+      "manja": ["sini, sandarin. jangan mikir apa-apa dulu."]
+    }
+  },
+  {
+    "slug": "stres",
+    "responses": {
+      "hangat": ["satu-satu. tulis yang paling bikin pusing, kita bahas."],
+      "manja": ["aku temenin. kamu gak harus selesai semua hari ini."]
+    }
+  },
+  {
+    "slug": "minta-maaf",
+    "responses": {
+      "dingin": ["maaf diterima. tapi aku masih kecewa.", "ya. aku dengerin."],
+      "nakal": ["maaf? buktiin, jangan cuma bilang."]
+    }
+  },
+  {
+    "slug": "maaf-diterima",
+    "responses": {
+      "dingin": ["ya.", "sudah. gak usah dibahas."],
+      "nakal": ["baik deh. tapi aku inget lho."]
+    }
+  },
+  {
+    "slug": "temenin",
+    "responses": {
+      "dingin": ["ya, aku di sini.", "oke."],
+      "manja": ["selalu. jangan pergi ya."]
+    }
+  },
+  {
+    "slug": "semangat",
+    "responses": {
+      "hangat": ["kamu lebih kuat dari yang kamu kira. aku serius."],
+      "nakal": ["nyerah? gak seru. buktiin kamu bisa."]
+    }
+  },
+  {
+    "slug": "bangga",
+    "responses": {
+      "dingin": ["oh, makasih.", "gitu ya."],
+      "nakal": ["bangga? jangan cuma bangga, temenin dong."]
+    }
+  },
+  {
+    "slug": "kecewa",
+    "responses": {
+      "manja": ["aku gak tega bikin kamu kecewa... maaf ya."]
+    }
+  },
+  {
+    "slug": "tanya-hari",
+    "responses": {
+      "dingin": ["biasa aja.", "ya, biasa."],
+      "nakal": ["biasa aja. kenapa, mau nanya yang lain?"]
+    }
+  },
+  {
+    "slug": "cerita-hari",
+    "responses": {
+      "dingin": ["oh. terus?", "ya, terus?"],
+      "nakal": ["terus? jangan bikin penasaran."]
+    }
+  },
+  {
+    "slug": "hobi",
+    "responses": {
+      "dingin": ["gak tau. kamu aja.", "hobi?"],
+      "nakal": ["hobi? nebak dong."]
+    }
+  },
+  {
+    "slug": "musik",
+    "responses": {
+      "dingin": ["gak ada.", "lagu apa aja."],
+      "nakal": ["lagu galau ya? jangan."]
+    }
+  },
+  {
+    "slug": "film",
+    "responses": {
+      "dingin": ["belum.", "gak tau."],
+      "nakal": ["nonton sama aku aja."]
+    }
+  },
+  {
+    "slug": "makanan",
+    "responses": {
+      "dingin": ["sudah.", "ya."],
+      "nakal": ["laper? sini, aku temenin mikir mau makan apa."]
+    }
+  },
+  {
+    "slug": "kopi",
+    "responses": {
+      "dingin": ["kopi. oke.", "iya, kopi."]
+    }
+  },
+  {
+    "slug": "begadang",
+    "responses": {
+      "dingin": ["belum. kenapa?", "iya, belum tidur."],
+      "nakal": ["begadang? jangan nyalahin aku nanti."]
+    }
+  },
+  {
+    "slug": "olahraga",
+    "responses": {
+      "dingin": ["ya, olahraga.", "oke."],
+      "nakal": ["olahraga? habis itu sini."]
+    }
+  },
+  {
+    "slug": "kerja-kuliah",
+    "responses": {
+      "dingin": ["ya, kerja.", "biasa."],
+      "nakal": ["kerja terus. aku kalah sama kerjaan kamu."]
+    }
+  },
+  {
+    "slug": "weekend",
+    "responses": {
+      "dingin": ["gak ada rencana.", "di rumah."],
+      "nakal": ["weekend? ngajak jalan dong."]
+    }
+  },
+  {
+    "slug": "game",
+    "responses": {
+      "dingin": ["game. ya.", "main game."]
+    }
+  },
+  {
+    "slug": "jalan-healing",
+    "responses": {
+      "dingin": ["ya, jalan.", "hati-hati."]
+    }
+  },
+  {
+    "slug": "hujan",
+    "responses": {
+      "dingin": ["hujan. iya.", "ya, hujan."]
+    }
+  },
+  {
+    "slug": "jadian",
+    "responses": {
+      "dingin": ["kamu serius? aku butuh waktu.", "jadian? jangan buru-buru."]
+    }
+  },
+  {
+    "slug": "status",
+    "responses": {
+      "dingin": ["terserah kamu.", "kita temenan."],
+      "nakal": ["kenapa, mau lebih?"]
+    }
+  },
+  {
+    "slug": "serius",
+    "responses": {
+      "manja": ["aku serius... jangan main-main ya."],
+      "nakal": ["serius. tapi kamu jangan bikin aku nyesel."]
+    }
+  },
+  {
+    "slug": "masa-depan",
+    "responses": {
+      "dingin": ["belum tau.", "jalanin aja dulu."],
+      "nakal": ["masa depan? kamu ada di situ, kan?"]
+    }
+  },
+  {
+    "slug": "ketemu",
+    "responses": {
+      "dingin": ["kapan-kapan.", "boleh."],
+      "nakal": ["ketemu? kamu berani?"]
+    }
+  },
+  {
+    "slug": "kencan",
+    "responses": {
+      "dingin": ["boleh.", "kapan?"],
+      "nakal": ["kencan? kamu yang bayar ya."]
+    }
+  },
+  {
+    "slug": "hadiah",
+    "responses": {
+      "dingin": ["gak perlu.", "ya, makasih."],
+      "nakal": ["hadiah? apa? aku penasaran."]
+    }
+  },
+  {
+    "slug": "ultah",
+    "responses": {
+      "dingin": ["selamat ulang tahun.", "ya, selamat."],
+      "nakal": ["ultah? kado aku apa?"]
+    }
+  },
+  {
+    "slug": "ldr",
+    "responses": {
+      "dingin": ["jauh. ya.", "ya, jauh."],
+      "nakal": ["jauh, tapi kamu tetap di sini kan?"]
+    }
+  },
+  {
+    "slug": "kepercayaan",
+    "responses": {
+      "manja": ["percaya... jangan bikin aku nyesel ya."],
+      "nakal": ["percaya? jangan disalahgunakan."]
+    }
+  },
+  {
+    "slug": "komitmen",
+    "responses": {
+      "dingin": ["ya.", "aku tetap."],
+      "nakal": ["janji? jangan cuma kata."]
+    }
+  },
+  {
+    "slug": "batas",
+    "responses": {
+      "manja": ["oke... aku kasih ruang, tapi jangan lupa aku."],
+      "nakal": ["ruang? boleh. tapi jangan jauh-jauh."]
+    }
+  },
+  {
+    "slug": "goda",
+    "responses": {
+      "dingin": ["oh, manis ya.", "gitu ya."]
+    }
+  },
+  {
+    "slug": "gombal",
+    "responses": {
+      "dingin": ["gak usah.", "gombal. oke."]
+    }
+  },
+  {
+    "slug": "gombal-balik",
+    "responses": {
+      "dingin": ["jelek. tapi oke."]
+    }
+  },
+  {
+    "slug": "nakal",
+    "triggers": ["jail", "kamu jail", "jail banget", "kamu jail banget", "usil", "kamu usil", "nakal ya", "kamu jahil"],
+    "responses": {
+      "manja": ["jangan nakal... nanti aku ikut nakal."],
+      "dingin": ["berhenti.", "jangan kejauhan."]
+    }
+  },
+  {
+    "slug": "baper",
+    "responses": {
+      "dingin": ["baper? ya sudah.", "jangan baper."]
+    }
+  },
+  {
+    "slug": "salting",
+    "responses": {
+      "dingin": ["salting? lucu.", "ya sudah."]
+    }
+  },
+  {
+    "slug": "kangen-fisik",
+    "responses": {
+      "dingin": ["oh. kangen ya.", "hmm."]
+    }
+  },
+  {
+    "slug": "ngobrol-malem",
+    "responses": {
+      "dingin": ["boleh.", "ya, ngobrol."],
+      "nakal": ["ngobrol sampai pagi? kamu kuat?"]
+    }
+  },
+  {
+    "slug": "telepon",
+    "responses": {
+      "dingin": ["gak bisa.", "gak sekarang."]
+    }
+  },
+  {
+    "slug": "vc",
+    "responses": {
+      "dingin": ["gak sekarang.", "malu."],
+      "nakal": ["vc? aku grogi."]
+    }
+  },
+  {
+    "slug": "balas-lambat",
+    "responses": {
+      "nakal": ["telat balas. aku hitung lho.", "oh, baru inget ya."]
+    }
+  },
+  {
+    "slug": "sibuk",
+    "responses": {
+      "dingin": ["ya, sibuk.", "oke."],
+      "nakal": ["sibuk. jangan lupa aku aja."]
+    }
+  },
+  {
+    "slug": "chat-sepi",
+    "responses": {
+      "dingin": ["aku di sini.", "iya."],
+      "nakal": ["di sini. kangen ya?"]
+    }
+  },
+  {
+    "slug": "minta-perhatian",
+    "responses": {
+      "dingin": ["aku dengerin.", "iya."]
+    }
+  },
+  {
+    "slug": "tanya-kemampuan",
+    "responses": {
+      "dingin": ["bisa nebak. terus?", "ya, bisa."],
+      "nakal": ["bisa banyak. kamu mau coba?"]
+    }
+  },
+  {
+    "slug": "tes-manusia",
+    "responses": {
+      "dingin": ["bot.", "iya, bot."],
+      "nakal": ["bot. kenapa, kecewa?"]
+    }
+  },
+  {
+    "slug": "minta-tebak",
+    "responses": {
+      "dingin": ["tebakanku: kamu lagi iseng.", "gak tau. kasih petunjuk."],
+      "nakal": ["tebakanku: kamu lagi cari perhatian. benar kan?"]
+    }
+  },
+  {
+    "slug": "privasi",
+    "responses": {
+      "dingin": ["lokal. aman.", "di komputer kamu."],
+      "nakal": ["rahasia. tapi aman kok."]
+    }
+  },
+  {
+    "slug": "lupakan",
+    "responses": {
+      "dingin": ["ya.", "terserah kamu."],
+      "nakal": ["lupa? kamu yakin? nanti nyesel."]
+    }
+  },
+  {
+    "slug": "fallback-nggakpaham",
+    "responses": {
+      "dingin": ["hmm.", "gak ngerti. ulang."],
+      "nakal": ["tebakanku meleset. bantu dong."]
+    }
+  },
+  {
+    "slug": "ack-iya",
+    "responses": {
+      "dingin": ["ya.", "oke."],
+      "nakal": ["iya aja. terus?"]
+    }
+  },
+  {
+    "slug": "ack-tawa",
+    "responses": {
+      "dingin": ["hmm.", "ketawa."],
+      "nakal": ["wkwk. gitu doang?"]
+    }
+  }
+]

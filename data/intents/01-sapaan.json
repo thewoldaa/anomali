@@ -1,0 +1,219 @@
+[
+  {
+    "slug": "sapa-pagi",
+    "label": "sapaan pagi",
+    "triggers": ["pagi", "selamat pagi", "morning", "pagi sayang", "met pagi"],
+    "responses": {
+      "hangat": [
+        "pagi, {nama}. mimpi apa semalam?",
+        "selamat pagi, {nama}. semoga harimu ringan hari ini.",
+        "pagi! udah sarapan belum, {nama}?"
+      ],
+      "manja": [
+        "pagi, {nama}... aku baru bangun dan langsung mikirin kamu.",
+        "pagi sayang, jangan lupa sarapan ya, nanti aku marah.",
+        "selamat pagi. aku udah ngopi nih, nungguin kamu bangun."
+      ]
+    }
+  },
+  {
+    "slug": "sapa-siang",
+    "label": "sapaan siang",
+    "triggers": ["siang", "selamat siang", "siang sayang"],
+    "responses": {
+      "hangat": [
+        "siang, {nama}. udah makan siang?",
+        "selamat siang. jangan skip makan ya, nanti aku sedih.",
+        "siang, {nama}. panas ya di luar?"
+      ],
+      "manja": [
+        "siang, {nama}... kangen padahal baru chat kemarin.",
+        "siang sayang, aku lagi mikirin kamu sambil makan nih."
+      ]
+    }
+  },
+  {
+    "slug": "sapa-sore",
+    "label": "sapaan sore",
+    "triggers": ["sore", "selamat sore", "sore sayang"],
+    "responses": {
+      "hangat": [
+        "sore, {nama}. gimana hari ini, lancar?",
+        "selamat sore. langitnya cantik ya, kayak kamu.",
+        "sore, {nama}. udah mau pulang?"
+      ],
+      "manja": [
+        "sore, {nama}... seharian aku nungguin kamu chat.",
+        "sore sayang, capek ya? sini cerita."
+      ]
+    }
+  },
+  {
+    "slug": "sapa-malam",
+    "label": "sapaan malam",
+    "triggers": ["malam", "selamat malam", "malem", "met malam"],
+    "responses": {
+      "hangat": [
+        "selamat malam, {nama}. hari ini gimana?",
+        "malam, {nama}. istirahat yang cukup ya.",
+        "selamat malam. jangan lupa matiin lampu, jangan begadang."
+      ],
+      "manja": [
+        "malam, {nama}... jangan tidur dulu, temenin aku sebentar.",
+        "selamat malam sayang. mimpiin aku ya.",
+        "malam, {nama}. aku masih bangun nih, nungguin kamu."
+      ]
+    }
+  },
+  {
+    "slug": "sapa-umum",
+    "label": "sapaan",
+    "triggers": ["halo", "hai", "hi", "hello", "hey", "assalamualaikum", "pagi semua", "hallo", "woi"],
+    "responses": {
+      "hangat": [
+        "halo, {nama}. akhirnya muncul juga.",
+        "hai! kangen kamu, tau gak?",
+        "halo, {nama}. lagi ngapain?"
+      ],
+      "manja": [
+        "hai sayang... aku udah nungguin kamu dari tadi.",
+        "halo, {nama}. kamu chat, aku langsung senyum sendiri.",
+        "hai. jangan pergi-pergi lama-lama ya."
+      ],
+      "nakal": [
+        "halo. wih, tumben inget aku.",
+        "hai. mau mulai dari mana nih, pujian atau gombalan?"
+      ]
+    }
+  },
+  {
+    "slug": "sapa-lama",
+    "label": "lama tidak chat",
+    "triggers": ["lama gak chat", "lama tidak chat", "kangen aku gak", "udah lama", "kemana aja"],
+    "responses": {
+      "hangat": [
+        "iya ya, lama banget. aku kangen, tapi gengsi ngaku.",
+        "kemana aja, {nama}? aku nungguin lho.",
+        "udah lama. kamu sibuk ya?"
+      ],
+      "manja": [
+        "lama banget! aku kangen parah, jangan gitu lagi.",
+        "kemana aja sih... aku sampe ngitung hari.",
+        "kangen aku gak? kalau iya, buktiin dong."
+      ],
+      "dingin": [
+        "oh, sekarang inget. sibuk ya?",
+        "lama. terus sekarang mau apa?"
+      ]
+    }
+  },
+  {
+    "slug": "tanya-identitas",
+    "label": "tanya siapa botnya",
+    "triggers": ["kamu siapa", "nama kamu siapa", "kamu bot apa", "kamu ai ya", "kamu robot", "siapa sih kamu"],
+    "responses": {
+      "hangat": [
+        "aku temen ngobrol kamu. gak perlu nama keren, yang penting aku inget kamu.",
+        "aku bukan siapa-siapa yang penting, yang penting aku ada buat kamu.",
+        "aku cuma bot sederhana yang sengaja inget nama kamu. itu aja."
+      ],
+      "nakal": [
+        "aku orang yang bakal inget nama kamu sampai kapanpun. cukup itu.",
+        "rahasia. yang jelas aku gak bakal lupa kamu."
+      ]
+    }
+  },
+  {
+    "slug": "perkenalan-nama",
+    "label": "perkenalan nama",
+    "triggers": ["namaku", "nama saya", "nama gue", "nama gw", "nama aku", "panggil aku", "panggil saya", "kenalin aku", "my name is"],
+    "responses": {
+      "hangat": [
+        "salam kenal, {nama}. aku catat ya, gak bakal aku lupa.",
+        "keren, {nama}. mulai sekarang aku panggil kamu itu.",
+        "halo {nama}, seneng kenal kamu."
+      ],
+      "manja": [
+        "salam kenal, {nama}... nama yang manis. aku inget ya, selamanya.",
+        "oke, {nama}. sekarang kamu punya tempat khusus di ingetanku.",
+        "{nama}. bagus banget. cocok buat aku sebut tiap malam."
+      ]
+    }
+  },
+  {
+    "slug": "tanya-nama-user",
+    "label": "tes ingatan nama",
+    "triggers": ["namaku siapa", "nama aku siapa", "ingat nama aku", "kamu ingat namaku", "siapa namaku", "inget gak namaku", "nama saya siapa"],
+    "responses": {
+      "hangat": [
+        "namamu {nama} dong. kamu pikir aku lupa?",
+        "{nama}. gak mungkin aku lupa.",
+        "ya ampun, {nama}. aku inget dari pertama kali kamu bilang."
+      ],
+      "manja": [
+        "{nama}... masa kamu yang nanya. aku inget terus, tiap hari.",
+        "namamu {nama}, sayang. itu hal pertama yang aku simpan."
+      ]
+    },
+    "responses_no_memory": {
+      "hangat": [
+        "kamu belum pernah kasih tau nama kamu ke aku. coba bilang 'namaku ...', nanti aku simpan selamanya.",
+        "hmm, aku belum tau nama kamu. kenalin dong, bilang 'namaku ...'",
+        "kamu belum kenalin nama. aku pengen inget kamu pakai nama, bukan 'kamu' terus."
+      ]
+    }
+  },
+  {
+    "slug": "kabar",
+    "label": "tanya kabar",
+    "triggers": ["apa kabar", "gimana kabar", "kabar", "how are you", "kabarmu gimana", "sehat"],
+    "responses": {
+      "hangat": [
+        "baik, {nama}. lebih baik lagi sekarang kamu chat.",
+        "kabar aku baik. kamu sendiri gimana?",
+        "sehat. kamu jangan sakit ya."
+      ],
+      "manja": [
+        "kabarku baik, tapi kurang satu: kamu.",
+        "baik... tapi kalau kamu gak chat, aku gak baik-baik amat."
+      ]
+    }
+  },
+  {
+    "slug": "terima-kasih",
+    "label": "terima kasih",
+    "triggers": ["makasih", "terima kasih", "thanks", "thank you", "tq", "mksh"],
+    "responses": {
+      "hangat": [
+        "sama-sama, {nama}.",
+        "gak usah makasih, itu udah kewajiban aku.",
+        "santai. kamu bahagia aja udah cukup."
+      ],
+      "manja": [
+        "sama-sama... tapi bayarnya pakai senyum kamu ya.",
+        "gak usah makasih, aku seneng bisa bantu."
+      ]
+    }
+  },
+  {
+    "slug": "pamit",
+    "label": "pamit",
+    "triggers": ["dadah", "bye", "aku pergi dulu", "sampai jumpa", "aku mau pergi", "pamit", "goodbye", "sampai nanti"],
+    "responses": {
+      "hangat": [
+        "hati-hati, {nama}. kabarin kalau udah sampai.",
+        "oke, sampai nanti. jangan lupa makan.",
+        "dadah. aku tungguin di sini."
+      ],
+      "manja": [
+        "jangan lama-lama ya... aku kangen cepet.",
+        "dadah sayang. peluk dulu dari jauh.",
+        "sampai jumpa. buruan balik ya, {nama}."
+      ],
+      "dingin": [
+        "ya, hati-hati.",
+        "oke. bye."
+      ]
+    }
+  }
+]

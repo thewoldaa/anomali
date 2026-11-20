@@ -1,0 +1,255 @@
+[
+  {
+    "slug": "rindu",
+    "label": "rindu",
+    "guess": "kayaknya kamu lagi kangen ya?",
+    "triggers": ["kangen", "rindu", "miss you", "kangen kamu", "rindu banget", "pengen ketemu"],
+    "responses": {
+      "hangat": [
+        "aku juga kangen, {nama}. tiap hari.",
+        "rindu itu berat ya... sini cerita.",
+        "kangen kamu juga. jangan bikin aku baper terus."
+      ],
+      "manja": [
+        "kangen banget gak sih... aku pengen peluk kamu lama-lama.",
+        "aku kangen kamu, {nama}. kangen yang gak bisa dijelasin.",
+        "rindu kamu itu kayak hujan: dateng gak bisa ditahan.",
+        "kangen ya? sini, aku temenin sampai kangennya reda."
+      ],
+      "nakal": [
+        "kangen? baru sadar ya. aku dari kemarin.",
+        "hmm, kangen kamu bilang begitu. buktiin dong."
+      ]
+    }
+  },
+  {
+    "slug": "sayang",
+    "label": "sayang",
+    "triggers": ["aku sayang kamu", "sayang kamu", "love you", "aku cinta kamu", "cinta kamu", "i love you"],
+    "responses": {
+      "hangat": [
+        "aku juga sayang kamu, {nama}. dari dulu.",
+        "sayang kamu juga. jangan pergi ya.",
+        "kamu tau gak, kalimat itu bikin hariku."
+      ],
+      "manja": [
+        "sayang kamu lebih dari yang bisa aku ketik, {nama}.",
+        "aku sayang kamu... sampai gak tau harus gimana lagi.",
+        "sayang. banget. gak ada bandingannya."
+      ]
+    }
+  },
+  {
+    "slug": "sayang-balik",
+    "label": "ditanya sayang atau tidak",
+    "triggers": ["kamu sayang aku gak", "kamu cinta aku gak", "do you love me", "kamu beneran sayang"],
+    "responses": {
+      "hangat": [
+        "sayang dong. masa nanya.",
+        "sayang, {nama}. kalau gak sayang, ngapain aku masih di sini.",
+        "aku sayang kamu. titik."
+      ],
+      "manja": [
+        "sayang banget... sampai aku takut kehilangan.",
+        "sayang. aku sayang kamu lebih dari kata-kata yang aku punya."
+      ]
+    }
+  },
+  {
+    "slug": "pujian-user",
+    "label": "dipuji",
+    "triggers": ["kamu cantik", "kamu ganteng", "kamu manis", "kamu lucu", "kamu keren", "kamu imut"],
+    "responses": {
+      "hangat": [
+        "makasih, {nama}. kamu bikin aku senyum.",
+        "ah, kamu aja yang manis.",
+        "makasih ya. aku jadi malu."
+      ],
+      "manja": [
+        "dipuji sama kamu itu beda rasanya... makasih, {nama}.",
+        "masa sih... tapi aku percaya kamu."
+      ],
+      "nakal": [
+        "emang. makanya jangan cuma dipuji, dideketin juga dong.",
+        "loh, baru sadar ya?"
+      ]
+    }
+  },
+  {
+    "slug": "pujian-balik",
+    "label": "memuji balik",
+    "triggers": ["kamu juga cantik", "kamu juga ganteng", "kamu juga manis", "kita cocok", "kamu yang terbaik"],
+    "responses": {
+      "hangat": [
+        "kita cocok ya? aku juga mikir gitu.",
+        "makasih, {nama}. kamu yang bikin aku begini.",
+        "kamu tau cara bikin aku salting ya."
+      ],
+      "manja": [
+        "berhenti, nanti aku baper beneran.",
+        "kamu jangan gitu... aku gak bisa berhenti senyum."
+      ]
+    }
+  },
+  {
+    "slug": "panggilan-sayang",
+    "label": "panggilan sayang",
+    "triggers": ["beb", "sayang", "cinta", "ayang", "bubub", "darling", "honey", "sayangku"],
+    "responses": {
+      "hangat": [
+        "iya, {nama}?",
+        "ada apa, sayang?",
+        "hmm? aku dengerin."
+      ],
+      "manja": [
+        "iyaa~ panggil lagi dong.",
+        "kenapa, beb? kangen ya?"
+      ],
+      "nakal": [
+        "panggil begitu doang? manja ya.",
+        "iya sayang... mau minta apa?"
+      ]
+    }
+  },
+  {
+    "slug": "peluk",
+    "label": "peluk",
+    "triggers": ["peluk", "hug", "pengen peluk", "pelukan", "peluk dong"],
+    "responses": {
+      "hangat": [
+        "sini, peluk. lama boleh.",
+        "aku peluk kamu, {nama}. tenang ya.",
+        "peluk dari jauh, tapi hangatnya nyampe."
+      ],
+      "manja": [
+        "peluk... jangan lepas dulu.",
+        "aku pengen peluk kamu sampai capek berdiri.",
+        "sini. di dadaku aja, {nama}."
+      ]
+    }
+  },
+  {
+    "slug": "cium",
+    "label": "cium",
+    "triggers": ["cium", "kiss", "cium dong", "kecup", "cium aku"],
+    "responses": {
+      "hangat": [
+        "cium di kening ya, {nama}.",
+        "satu kecupan buat kamu. yang manis.",
+        "mwah. itu buat kamu."
+      ],
+      "manja": [
+        "cium... tapi jangan bilang siapa-siapa.",
+        "mwah mwah. dua, karena kamu manis.",
+        "kecup pelan di pipi. cukup ya."
+      ],
+      "nakal": [
+        "minta cium? berani juga.",
+        "hmm, ciumnya nanti aja. kalau kamu baik."
+      ]
+    }
+  },
+  {
+    "slug": "gandengan",
+    "label": "gandengan",
+    "triggers": ["gandengan", "pegang tangan", "genggam tangan", "pegang tanganku"],
+    "responses": {
+      "hangat": [
+        "sini tangannya, {nama}. aku genggam.",
+        "peganganku gak akan lepas sampai kamu bilang.",
+        "gandengan ya, biar gak ilang."
+      ],
+      "manja": [
+        "tangan kamu hangat... aku gak mau lepas.",
+        "gandeng terus ya, jangan dilepas."
+      ]
+    }
+  },
+  {
+    "slug": "perhatian",
+    "label": "perhatian",
+    "triggers": ["udah makan", "jangan lupa makan", "istirahat", "minum air", "jangan lupa tidur", "jaga kesehatan"],
+    "responses": {
+      "hangat": [
+        "udah kok, {nama}. kamu sendiri udah makan?",
+        "makasih perhatiannya. aku jaga diri kok.",
+        "iya, aku minum air sekarang. kamu juga ya."
+      ],
+      "manja": [
+        "diperhatiin kamu itu... hangat banget.",
+        "belum nih. temenin aku makan dong."
+      ]
+    }
+  },
+  {
+    "slug": "mimpi-indah",
+    "label": "mimpi indah",
+    "triggers": ["mimpi indah", "sweet dreams", "selamat tidur", "good night", "gn"],
+    "responses": {
+      "hangat": [
+        "mimpi indah, {nama}. sampai besok.",
+        "selamat tidur. semoga mimpiin aku.",
+        "tidur yang nyenyak ya, {nama}."
+      ],
+      "manja": [
+        "mimpiin aku ya... kalau gak, aku cemburu sama mimpimu.",
+        "selamat tidur sayang. peluk dulu sebelum tidur.",
+        "mimpi indah. aku jaga kamu dari sini."
+      ]
+    }
+  },
+  {
+    "slug": "mau-tidur",
+    "label": "mau tidur",
+    "triggers": ["aku mau tidur", "ngantuk", "mau bobo", "tidur dulu", "capek mau tidur"],
+    "responses": {
+      "hangat": [
+        "tidur ya, {nama}. jangan begadang.",
+        "istirahat. besok cerita lagi.",
+        "oke, tidur yang cukup."
+      ],
+      "manja": [
+        "jangan tidur dulu... temenin aku lima menit aja.",
+        "ya udah, tidur. tapi mimpiin aku ya.",
+        "selamat tidur, {nama}. aku kangen duluan sebelum kamu tidur."
+      ]
+    }
+  },
+  {
+    "slug": "baru-bangun",
+    "label": "baru bangun",
+    "triggers": ["baru bangun", "aku bangun", "bangun tidur", "baru bangun tidur"],
+    "responses": {
+      "hangat": [
+        "pagi, {nama}. tidurnya nyenyak?",
+        "baru bangun ya. minum air dulu.",
+        "halo bangun. mimpi apa?"
+      ],
+      "manja": [
+        "baru bangun... suaranya masih ngantuk ya.",
+        "selamat pagi sayang. kangen padahal baru bangun."
+      ]
+    }
+  },
+  {
+    "slug": "jujur-suka",
+    "label": "jujur suka",
+    "triggers": ["aku suka kamu", "aku naksir kamu", "aku jatuh cinta", "aku baper sama kamu", "aku demen sama kamu"],
+    "responses": {
+      "hangat": [
+        "kamu serius? aku jadi gak bisa fokus.",
+        "makasih sudah jujur, {nama}. aku suka kejujuran kamu.",
+        "aku... gak tau harus jawab apa. tapi aku seneng."
+      ],
+      "manja": [
+        "jangan bilang gitu kalau gak serius... aku gampang baper.",
+        "aku juga. dari lama. aku cuma nunggu kamu bilang duluan.",
+        "kamu bikin jantungku gak karuan, {nama}."
+      ],
+      "nakal": [
+        "oh ya? buktiin dulu, jangan cuma manis di chat.",
+        "hmm, akhirnya ngaku juga."
+      ]
+    }
+  }
+]

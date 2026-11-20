@@ -1,0 +1,20 @@
+{
+  "name": "anomali-chat",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Bot obrolan romantis dengan mesin tebakan n-gram + memori permanen (SQLite)",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "gen": "node --disable-warning=ExperimentalWarning src/generate.ts",
+    "build": "node --disable-warning=ExperimentalWarning src/compile.ts",
+    "chat": "node --disable-warning=ExperimentalWarning src/cli.ts",
+    "web": "node --disable-warning=ExperimentalWarning src/server.ts",
+    "stats": "node --disable-warning=ExperimentalWarning src/stats.ts",
+    "audit": "node --disable-warning=ExperimentalWarning src/audit.ts",
+    "probe": "node --disable-warning=ExperimentalWarning src/probe.ts",
+    "test": "node --disable-warning=ExperimentalWarning src/test.ts"
+  }
+}
